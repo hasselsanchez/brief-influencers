@@ -97,7 +97,7 @@ export const DIFERENCIADORES = {
     {
       number: "02",
       title: "Innovación desde el conocimiento",
-      desc: "Llevamos más de 10 años entendiendo el comercio a profundidad para hacer que vender, cobrar y enviar sea cada vez más fácil, accesible y eficiente para cualquier emprendedor, pyme o empresa.",
+      desc: "Llevamos más de 10 años entendiendo el comercio a profundidad para que vender, cobrar y enviar sea cada vez más fácil, accesible y eficiente para cualquier emprendedor, pyme o empresa.",
       accent: "#8B5CF6",
       accentLight: "rgba(139,92,246,0.08)",
       accentBorder: "rgba(139,92,246,0.2)",
