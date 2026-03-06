@@ -23,12 +23,12 @@ export default function QueEsT1() {
           {QUE_ES.eyebrow}
         </p>
         <h2
-          className="mb-4 font-[family-name:var(--font-inter)] font-light leading-[1.2] text-black"
+          className="mb-4 font-[family-name:var(--font-sora)] font-light leading-[1.2] text-gray-900"
           style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
         >
           {QUE_ES.title} <span className="text-[#E26153]">{QUE_ES.titleAccent}</span>
         </h2>
-        <p className="mb-6 tablet:mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
+        <p className="mb-6 tablet:mb-8 font-[family-name:var(--font-inter)] font-light text-base leading-[1.7] text-black">
           {QUE_ES.descParts.map((part, i) =>
             part.red ? (
               <span key={i} className="text-[#E26153]">{part.text}</span>
@@ -92,7 +92,7 @@ export default function QueEsT1() {
           data-animate
         >
           <p
-            className="font-[family-name:var(--font-inter)] font-light leading-[1.55] tracking-[-0.01em] text-black"
+            className="font-[family-name:var(--font-sora)] font-light leading-[1.55] tracking-[-0.01em] text-gray-900"
             style={{ fontSize: "clamp(20px, 2.8vw, 26px)" }}
           >
             <span className="font-normal text-[#E26153]">

@@ -14,13 +14,13 @@ export default function Objetivo() {
           {OBJETIVO.eyebrow}
         </p>
         <h2
-          className="mb-4 font-[family-name:var(--font-inter)] font-light leading-[1.2] text-black"
+          className="mb-4 font-[family-name:var(--font-sora)] font-light leading-[1.2] text-gray-900"
           style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
         >
           {OBJETIVO.title}{" "}
           <span className="text-[#E26153]">{OBJETIVO.titleAccent}</span>
         </h2>
-        <p className="mb-6 tablet:mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
+        <p className="mb-6 tablet:mb-8 font-[family-name:var(--font-inter)] font-light text-base leading-[1.7] text-black">
           {OBJETIVO.desc}
         </p>
       </div>
@@ -35,7 +35,7 @@ export default function Objetivo() {
             {OBJETIVO.guidePhrase.label}
           </p>
           <p
-            className="font-[family-name:var(--font-inter)] font-light italic leading-[1.65] text-black"
+            className="font-[family-name:var(--font-sora)] font-light italic leading-[1.65] text-gray-900"
             style={{ fontSize: "clamp(16px, 2vw, 19px)" }}
           >
             {OBJETIVO.guidePhrase.text}
