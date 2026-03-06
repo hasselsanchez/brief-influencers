@@ -48,7 +48,7 @@ export default function Productos() {
                 className="h-6 w-auto"
               />
             </div>
-            <p className="mb-6 max-w-[600px] font-[family-name:var(--font-inter)] text-[15px] leading-[1.6] text-gray-500">
+            <p className="mb-6 max-w-[600px] font-[family-name:var(--font-inter)] font-light text-[15px] leading-[1.6] text-black">
               {block.subtitle}
             </p>
 
