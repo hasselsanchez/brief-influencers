@@ -364,7 +364,8 @@ export const DOS_DONTS = {
   dontsHeading: "🚫 Lo que no",
   dos: [
     'Hablar de <strong>funciones reales de T1.</strong>',
-    'Usar <strong>T1tienda / T1pagos / T1envíos.</strong> Para la tienda en línea: Usar el término <strong>tienda en línea.</strong>',
+    'Usar <strong>T1 <em>(te uno)</em>, T1tienda, T1pagos, T1envíos.</strong>',
+    'Para la tienda en línea: Usar el término <strong>tienda en línea.</strong>',
     'Explicar que T1 conecta tienda, cobros y envíos, <strong>\u201CEl ecosistema del comercio moderno\u201D.</strong>',
     'Decir claramente <strong>qué problema resuelve T1.</strong>',
     'Tono natural, cercano y auténtico.',
@@ -374,7 +375,8 @@ export const DOS_DONTS = {
   ],
   donts: [
     '<strong>Inventar</strong> funciones o resultados.',
-    '<strong>Cambiar</strong> nombres o escribirlos <strong>diferente.</strong> Para la tienda en línea: <strong>No usar términos como</strong> página web, página, tienda online, sitio web, e-commerce, etc.',
+    '<strong>Cambiar</strong> nombres o escribirlos <strong>diferente.</strong>',
+    '<strong>No usar términos como</strong> página web, página, tienda online, sitio web, e-commerce, etc.',
     'Mostrar T1 como <strong>una sola herramienta.</strong>',
     'Mensajes <strong>ambiguos</strong> que <strong>no se entienden.</strong>',
     'Sobreventa <strong>agresiva o forzada.</strong>',
