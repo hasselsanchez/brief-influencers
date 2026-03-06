@@ -28,14 +28,14 @@ export default function Hooks() {
           {HOOKS.title}{" "}
           <span className="text-[#E26153]">{HOOKS.titleAccent}</span>
         </h2>
-        <p className="mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
+        <p className="mb-6 tablet:mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
           {HOOKS.desc}
         </p>
       </div>
 
       <div className="relative z-10 mx-auto max-w-[1018px]">
         {HOOKS.groups.map((group) => (
-          <div key={group.product} className="mb-12" data-animate>
+          <div key={group.product} className="mb-8 tablet:mb-12" data-animate>
             <div className="mb-4 flex items-center gap-3">
               <img
                 src={logos[group.product]}

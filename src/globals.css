@@ -214,6 +214,17 @@ body {
 
 @media (max-width: 767px) {
   .diff-item {
-    padding: 24px 24px 24px 28px;
+    padding: 20px 16px 20px 20px;
+  }
+  .hook-item {
+    padding: 12px 14px;
+    font-size: 13px;
+  }
+  .hook-item:hover {
+    padding-left: 18px;
+  }
+  .highlight-statement::before,
+  .highlight-statement::after {
+    width: 40px;
   }
 }

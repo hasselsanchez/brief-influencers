@@ -17,7 +17,7 @@ export default function Nav() {
         scrolled ? "shadow-[0px_0px_25px_2px_rgba(0,0,0,0.06)]" : ""
       }`}
     >
-      <div className="mx-auto flex w-full max-w-[1018px] items-center justify-between px-6">
+      <div className="mx-auto flex w-full max-w-[1018px] items-center justify-between px-4 tablet:px-6">
         <a href="#" className="flex items-center">
           <img
             src={t1iconLogo}
@@ -42,7 +42,7 @@ export default function Nav() {
             href="https://t1.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-[45px] items-center justify-center rounded-[18px] bg-[#E26153] px-7 font-[family-name:var(--font-inter)] text-sm font-semibold text-white transition-colors duration-200 hover:bg-[#DB3B2B]"
+            className="inline-flex h-[40px] tablet:h-[45px] items-center justify-center rounded-[18px] bg-[#E26153] px-5 tablet:px-7 font-[family-name:var(--font-inter)] text-sm font-semibold text-white transition-colors duration-200 hover:bg-[#DB3B2B]"
           >
             Explorar T1 →
           </a>

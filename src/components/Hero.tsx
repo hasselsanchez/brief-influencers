@@ -3,7 +3,7 @@ import { HERO } from "@/lib/constants";
 export default function Hero() {
   return (
     <section
-      className="relative overflow-hidden px-4 pt-[110px] pb-[60px] tablet:px-6 tablet:pt-[140px] tablet:pb-[100px]"
+      className="relative overflow-hidden px-4 pt-[90px] pb-[40px] tablet:px-6 tablet:pt-[140px] tablet:pb-[100px]"
       style={{
         background: "linear-gradient(to bottom, #E59086, #F2B5AE, #FFFFFF)",
       }}
@@ -24,7 +24,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-[721px] text-center">
-        <div className="mb-8 inline-flex animate-fade-in-up items-center gap-2 rounded-full border border-white/50 bg-white/75 px-5 py-2 shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-[16px] font-[family-name:var(--font-sora)] text-xs font-semibold text-[#E26153]">
+        <div className="mb-5 tablet:mb-8 inline-flex animate-fade-in-up items-center gap-2 rounded-full border border-white/50 bg-white/75 px-5 py-2 shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-[16px] font-[family-name:var(--font-sora)] text-xs font-semibold text-[#E26153]">
           {HERO.badge}
         </div>
 
@@ -40,7 +40,7 @@ export default function Hero() {
         </h1>
 
         <p
-          className="mx-auto mb-10 max-w-[540px] font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500 animate-fade-in-up"
+          className="mx-auto mb-6 tablet:mb-10 max-w-[540px] font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500 animate-fade-in-up"
           style={{ animationDelay: "0.2s", animationFillMode: "both" }}
         >
           {HERO.subtitle}

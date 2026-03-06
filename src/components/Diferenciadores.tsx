@@ -44,7 +44,7 @@ export default function Diferenciadores() {
               <h4 className="mb-2 font-[family-name:var(--font-sora)] text-[17px] font-semibold text-gray-900">
                 {item.title}
               </h4>
-              <p className="font-[family-name:var(--font-inter)] text-[15px] leading-[1.6] text-gray-500">
+              <p className="font-[family-name:var(--font-inter)] text-[14px] tablet:text-[15px] leading-[1.6] text-gray-500">
                 {item.desc}
               </p>
             </div>
