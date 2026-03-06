@@ -30,6 +30,8 @@ export default function QueEsT1() {
         </h2>
         <p className="mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
           {QUE_ES.desc}
+          <span className="text-[#E26153]">{QUE_ES.descAccent}</span>
+          {QUE_ES.descAfter}
         </p>
       </div>
 
