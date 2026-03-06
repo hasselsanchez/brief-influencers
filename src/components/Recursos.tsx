@@ -18,8 +18,7 @@ export default function Recursos() {
 
       <div className="relative z-10 mx-auto max-w-[1018px]">
         <div
-          className="mt-8 grid items-start gap-5"
-          style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}
+          className="mt-8 mx-auto grid max-w-[700px] grid-cols-1 items-stretch gap-5 tablet:grid-cols-2"
           data-animate
         >
           {RECURSOS.cards.map((card) => (
