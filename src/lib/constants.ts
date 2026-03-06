@@ -210,7 +210,7 @@ export const PRODUCTOS = {
           example:
             "Ej: Haces joyería artesanal y la vendes por Instagram. Sabes que necesitas tu propia tienda pero no tienes idea de cómo hacerla y las agencias te cobran muchísimo.",
           solution:
-            "Describe tu negocio en un texto y T1 crea tu tienda completa con inteligencia artificial en segundos. Sin código, sin diseño, sin agencia.",
+            "Describe tu negocio en un texto y T1 crea tu tienda completa con inteligencia artificial en segundos con pagos y envíos integrados. Sin código, sin diseño, sin agencia.",
         },
         {
           problem:
@@ -224,7 +224,7 @@ export const PRODUCTOS = {
           problem:
             "Vendes en varios canales (Amazon, Mercado Libre, TikTok Shop) y manejas todo por separado: pedidos, inventario y datos que no cuadran.",
           example:
-            "Ej: Una marca de ropa vende en Mercado Libre y Amazon. Actualizan inventario a mano en cada plataforma y la semana pasada vendieron una talla que ya no tenían en stock.",
+            "Ej: Una marca de ropa vende en Mercado Libre y Amazon. Actualizan inventario a mano en cada plataforma y la semana pasada vendieron una talla que ya no tenían en stock por manejar cada canal por separado.",
           solution:
             "T1tienda centraliza todos tus canales de venta en un solo lugar. Conecta +10 marketplaces y administra inventario y pedidos sin brincar entre plataformas.",
         },
