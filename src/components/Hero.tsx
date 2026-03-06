@@ -29,7 +29,7 @@ export default function Hero() {
         </div>
 
         <h1
-          className="mb-5 font-[family-name:var(--font-sora)] font-light leading-[1.2] text-gray-900 animate-fade-in-up"
+          className="mb-5 font-[family-name:var(--font-inter)] font-light leading-[1.2] text-black animate-fade-in-up"
           style={{
             fontSize: "clamp(36px, 6vw, 60px)",
             animationDelay: "0.1s",

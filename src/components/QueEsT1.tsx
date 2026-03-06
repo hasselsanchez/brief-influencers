@@ -23,12 +23,12 @@ export default function QueEsT1() {
           {QUE_ES.eyebrow}
         </p>
         <h2
-          className="mb-4 font-[family-name:var(--font-sora)] font-light leading-[1.2] text-gray-900"
+          className="mb-4 font-[family-name:var(--font-inter)] font-light leading-[1.2] text-black"
           style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
         >
           {QUE_ES.title} <span className="text-[#E26153]">{QUE_ES.titleAccent}</span>
         </h2>
-        <p className="mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
+        <p className="mb-6 tablet:mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
           {QUE_ES.descParts.map((part, i) =>
             part.red ? (
               <span key={i} className="text-[#E26153]">{part.text}</span>
@@ -48,7 +48,7 @@ export default function QueEsT1() {
           {QUE_ES.products.map((product) => (
             <div
               key={product.name}
-              className="group relative overflow-hidden rounded-[24px] bg-white p-8 shadow-[0px_0px_25px_2px_rgba(0,0,0,0.06)] transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)]"
+              className="group relative overflow-hidden rounded-[24px] bg-white p-5 tablet:p-8 shadow-[0px_0px_25px_2px_rgba(0,0,0,0.06)] transition-all duration-500 hover:-translate-y-1.5 hover:shadow-[0_20px_50px_rgba(0,0,0,0.08)]"
             >
               <div
                 className="pointer-events-none absolute -top-10 -right-10 h-24 w-24 rounded-full opacity-0 blur-[30px] transition-opacity duration-500 group-hover:opacity-100"
@@ -92,7 +92,7 @@ export default function QueEsT1() {
           data-animate
         >
           <p
-            className="font-[family-name:var(--font-sora)] font-light leading-[1.55] tracking-[-0.01em] text-gray-900"
+            className="font-[family-name:var(--font-inter)] font-light leading-[1.55] tracking-[-0.01em] text-black"
             style={{ fontSize: "clamp(20px, 2.8vw, 26px)" }}
           >
             <span className="font-normal text-[#E26153]">

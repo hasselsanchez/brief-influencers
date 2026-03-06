@@ -8,7 +8,7 @@ export default function Recursos() {
           {RECURSOS.eyebrow}
         </p>
         <h2
-          className="mb-4 font-[family-name:var(--font-sora)] font-light leading-[1.2] text-gray-900"
+          className="mb-4 font-[family-name:var(--font-inter)] font-light leading-[1.2] text-black"
           style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
         >
           {RECURSOS.title}{" "}
@@ -24,7 +24,7 @@ export default function Recursos() {
           {RECURSOS.cards.map((card) => (
             <div
               key={card.title}
-              className="rounded-[24px] bg-white p-7 text-center shadow-[0px_2px_20px_0px_rgba(226,97,83,0.12),0px_0px_0px_1px_rgba(226,97,83,0.06)]"
+              className="rounded-[24px] bg-white p-5 tablet:p-7 text-center shadow-[0px_2px_20px_0px_rgba(226,97,83,0.12),0px_0px_0px_1px_rgba(226,97,83,0.06)]"
             >
               <h4 className="mb-4 flex items-center justify-center gap-2 font-[family-name:var(--font-sora)] text-base font-semibold text-gray-900">
                 {card.icon} {card.title}
@@ -39,7 +39,7 @@ export default function Recursos() {
                     href={link.href}
                     target={link.href.startsWith("http") ? "_blank" : undefined}
                     rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                    className={`resource-link inline-flex h-10 items-center justify-center rounded-[18px] border border-[rgba(226,97,83,0.3)] px-6 font-[family-name:var(--font-inter)] text-[13px] font-semibold text-[#E26153] no-underline${
+                    className={`resource-link inline-flex h-10 items-center justify-center rounded-[18px] border border-[rgba(226,97,83,0.3)] px-4 tablet:px-6 font-[family-name:var(--font-inter)] text-[13px] font-semibold text-[#E26153] no-underline${
                       link.disabled ? " pointer-events-none opacity-50" : ""
                     }`}
                   >

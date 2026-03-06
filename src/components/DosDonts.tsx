@@ -11,7 +11,7 @@ export default function DosDonts() {
           {DOS_DONTS.eyebrow}
         </p>
         <h2
-          className="mb-4 font-[family-name:var(--font-sora)] font-light leading-[1.2] text-gray-900"
+          className="mb-4 font-[family-name:var(--font-inter)] font-light leading-[1.2] text-black"
           style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
         >
           {DOS_DONTS.title}{" "}
@@ -23,7 +23,7 @@ export default function DosDonts() {
         {/* Do's & Don'ts columns */}
         <div className="mt-8 grid grid-cols-1 gap-5 tablet:grid-cols-2" data-animate>
           {/* Do's */}
-          <div className="rounded-[24px] border border-[rgba(79,193,83,0.15)] bg-green-100 p-8">
+          <div className="rounded-[24px] border border-[rgba(79,193,83,0.15)] bg-green-100 p-5 tablet:p-8">
             <h3 className="mb-5 flex items-center gap-2 font-[family-name:var(--font-sora)] text-xl font-semibold text-green-700">
               {DOS_DONTS.dosHeading}
             </h3>
@@ -37,7 +37,7 @@ export default function DosDonts() {
           </div>
 
           {/* Don'ts */}
-          <div className="rounded-[24px] border border-[rgba(204,0,0,0.1)] bg-brand-red-50 p-8">
+          <div className="rounded-[24px] border border-[rgba(204,0,0,0.1)] bg-brand-red-50 p-5 tablet:p-8">
             <h3 className="mb-5 flex items-center gap-2 font-[family-name:var(--font-sora)] text-xl font-semibold text-brand-red-900">
               {DOS_DONTS.dontsHeading}
             </h3>

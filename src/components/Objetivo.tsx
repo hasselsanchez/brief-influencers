@@ -14,13 +14,13 @@ export default function Objetivo() {
           {OBJETIVO.eyebrow}
         </p>
         <h2
-          className="mb-4 font-[family-name:var(--font-sora)] font-light leading-[1.2] text-gray-900"
+          className="mb-4 font-[family-name:var(--font-inter)] font-light leading-[1.2] text-black"
           style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
         >
           {OBJETIVO.title}{" "}
           <span className="text-[#E26153]">{OBJETIVO.titleAccent}</span>
         </h2>
-        <p className="mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
+        <p className="mb-6 tablet:mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
           {OBJETIVO.desc}
         </p>
       </div>
@@ -35,7 +35,7 @@ export default function Objetivo() {
             {OBJETIVO.guidePhrase.label}
           </p>
           <p
-            className="font-[family-name:var(--font-sora)] font-light italic leading-[1.65] text-gray-900"
+            className="font-[family-name:var(--font-inter)] font-light italic leading-[1.65] text-black"
             style={{ fontSize: "clamp(16px, 2vw, 19px)" }}
           >
             {OBJETIVO.guidePhrase.text}
@@ -51,7 +51,7 @@ export default function Objetivo() {
           {OBJETIVO.cards.map((card) => (
             <div
               key={card.title}
-              className="rounded-[24px] p-8 text-white transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(226,97,83,0.3)]"
+              className="rounded-[24px] p-5 tablet:p-8 text-white transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(226,97,83,0.3)]"
               style={{
                 background:
                   "linear-gradient(135deg, #E26153 0%, #E59086 50%, #F2B5AE 100%)",

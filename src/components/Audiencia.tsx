@@ -14,14 +14,14 @@ export default function Audiencia() {
           {AUDIENCIA.eyebrow}
         </p>
         <h2
-          className="mb-4 font-[family-name:var(--font-sora)] font-light leading-[1.2] text-gray-900"
+          className="mb-4 font-[family-name:var(--font-inter)] font-light leading-[1.2] text-black"
           style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
         >
           {AUDIENCIA.title}{" "}
           <span className="text-[#E26153]">{AUDIENCIA.titleAccent}</span>
           {AUDIENCIA.titleEnd}
         </h2>
-        <p className="mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
+        <p className="mb-6 tablet:mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
           {AUDIENCIA.desc}
         </p>
         <p className="mt-[-20px] text-xs italic leading-[1.5] text-gray-400">
@@ -40,7 +40,7 @@ export default function Audiencia() {
           {AUDIENCIA.profiles.map((profile) => (
             <div
               key={profile.title}
-              className="rounded-[24px] border border-gray-200 bg-white p-7 transition-all duration-500 hover:-translate-y-1 hover:border-transparent hover:shadow-[0_20px_50px_rgba(0,0,0,0.06)]"
+              className="rounded-[24px] border border-gray-200 bg-white p-5 tablet:p-7 transition-all duration-500 hover:-translate-y-1 hover:border-transparent hover:shadow-[0_20px_50px_rgba(0,0,0,0.06)]"
             >
               <h4 className="mb-2 font-[family-name:var(--font-sora)] text-base font-semibold text-gray-900">
                 {profile.emoji} {profile.title}
