@@ -188,7 +188,7 @@ export const AUDIENCIA = {
     {
       emoji: "🏪",
       title: "Negocios físicos",
-      desc: "Tiendas de ropa, accesorios, artesanías, productos de belleza y cualquier negocio con punto de venta que quiera empezar a vender.",
+      desc: "Tiendas de ropa, accesorios, productos de belleza y cualquier negocio con uno o varios puntos de venta que quieran aceptar pagos digitales, vender en línea y coordinar envíos sin complicaciones.",
     },
   ],
 };
