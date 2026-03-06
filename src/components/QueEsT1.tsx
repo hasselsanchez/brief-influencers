@@ -29,9 +29,13 @@ export default function QueEsT1() {
           {QUE_ES.title} <span className="text-[#E26153]">{QUE_ES.titleAccent}</span>
         </h2>
         <p className="mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
-          {QUE_ES.desc}
-          <span className="text-[#E26153]">{QUE_ES.descAccent}</span>
-          {QUE_ES.descAfter}
+          {QUE_ES.descParts.map((part, i) =>
+            part.red ? (
+              <span key={i} className="text-[#E26153]">{part.text}</span>
+            ) : (
+              <span key={i}>{part.text}</span>
+            )
+          )}
         </p>
       </div>
 

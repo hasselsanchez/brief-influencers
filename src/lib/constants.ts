@@ -20,9 +20,13 @@ export const QUE_ES = {
   eyebrow: "01 — Qué es T1",
   title: "Todo en Uno. Bienvenido a la nueva era del",
   titleAccent: "comercio moderno.",
-  desc: "T1 es el ecosistema del comercio moderno 100% mexicano que conecta todo lo que un negocio necesita para operar: tienda en línea, pagos y envíos, desde un solo lugar. Con ",
-  descAccent: "la flexibilidad de usar cada solución por separado",
-  descAfter: ", puedes elegir solo lo que necesitas, ya sea links de pago, hacer envíos o tu tienda en línea.",
+  descParts: [
+    { text: "T1 es el ecosistema del comercio moderno 100% mexicano que conecta todo lo que un negocio necesita para operar: tienda en línea, pagos y envíos, " },
+    { text: "desde un solo lugar.", red: true },
+    { text: " Con " },
+    { text: "la flexibilidad de usar cada solución por separado", red: true },
+    { text: ", puedes elegir solo lo que necesitas, ya sea links de pago, hacer envíos o tu tienda en línea." },
+  ],
   products: [
     {
       name: "t1tienda" as const,
