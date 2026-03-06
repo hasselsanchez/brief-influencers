@@ -145,6 +145,16 @@ body {
   }
 }
 
+/* Card example (italic examples under problems) */
+.card-example {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+  font-size: 13px;
+  color: #A3A3A3;
+  line-height: 1.55;
+}
+
 /* Example bad cells */
 .example-bad {
   text-decoration: line-through;

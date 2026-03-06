@@ -17,9 +17,6 @@ export default function DosDonts() {
           {DOS_DONTS.title}{" "}
           <span className="text-[#E26153]">{DOS_DONTS.titleAccent}</span>
         </h2>
-        <p className="mb-8 font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500">
-          {DOS_DONTS.desc}
-        </p>
       </div>
 
       <div className="relative z-10 mx-auto max-w-[1018px]">
@@ -28,36 +25,28 @@ export default function DosDonts() {
           {/* Do's */}
           <div className="rounded-[24px] border border-[rgba(79,193,83,0.15)] bg-green-100 p-8">
             <h3 className="mb-5 flex items-center gap-2 font-[family-name:var(--font-sora)] text-xl font-semibold text-green-700">
-              ✅ Do&apos;s
+              {DOS_DONTS.dosHeading}
             </h3>
             {DOS_DONTS.dos.map((item, i) => (
               <div
                 key={i}
                 className="border-b border-black/[0.04] py-2.5 font-[family-name:var(--font-inter)] text-sm leading-[1.7] text-gray-600 last:border-b-0"
-              >
-                <strong className="font-semibold text-gray-900">
-                  {item.bold}
-                </strong>{" "}
-                {item.text}
-              </div>
+                dangerouslySetInnerHTML={{ __html: item }}
+              />
             ))}
           </div>
 
           {/* Don'ts */}
           <div className="rounded-[24px] border border-[rgba(204,0,0,0.1)] bg-brand-red-50 p-8">
             <h3 className="mb-5 flex items-center gap-2 font-[family-name:var(--font-sora)] text-xl font-semibold text-brand-red-900">
-              ❌ Don&apos;ts
+              {DOS_DONTS.dontsHeading}
             </h3>
             {DOS_DONTS.donts.map((item, i) => (
               <div
                 key={i}
                 className="border-b border-black/[0.04] py-2.5 font-[family-name:var(--font-inter)] text-sm leading-[1.7] text-gray-600 last:border-b-0"
-              >
-                <strong className="font-semibold text-gray-900">
-                  {item.bold}
-                </strong>{" "}
-                {item.text}
-              </div>
+                dangerouslySetInnerHTML={{ __html: item }}
+              />
             ))}
           </div>
         </div>

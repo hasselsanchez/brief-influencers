@@ -71,6 +71,9 @@ export default function Productos() {
                 >
                   <div className="card-problem flex flex-col justify-center rounded-2xl border border-gray-200 bg-gray-50 px-5 py-5 font-[family-name:var(--font-inter)] text-sm leading-[1.7] text-gray-500 tablet:rounded-none tablet:border-0">
                     {pair.problem}
+                    {pair.example && (
+                      <span className="card-example">{pair.example}</span>
+                    )}
                   </div>
                   <div className="card-solution flex flex-col justify-center rounded-2xl border border-[rgba(226,97,83,0.15)] bg-[rgba(226,97,83,0.06)] px-5 py-5 font-[family-name:var(--font-inter)] text-sm font-medium leading-[1.6] text-gray-800 tablet:rounded-none tablet:border-0">
                     {pair.solution}
@@ -79,10 +82,6 @@ export default function Productos() {
               ))}
             </div>
 
-            {/* Credibility badge */}
-            <div className="mt-5 rounded-2xl border border-[rgba(226,97,83,0.12)] bg-gradient-to-br from-brand-red-50 to-[rgba(226,97,83,0.06)] px-5 py-4 font-[family-name:var(--font-inter)] text-sm italic leading-[1.6] text-[#E26153]">
-              {block.badge}
-            </div>
           </div>
         ))}
       </div>

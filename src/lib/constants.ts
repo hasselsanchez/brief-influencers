@@ -195,258 +195,228 @@ export const PRODUCTOS = {
   blocks: [
     {
       name: "t1tienda" as const,
-      subtitle: "Crea tu tienda en minutos con IA",
+      subtitle:
+        "La primera plataforma en el mundo que convierte un simple texto en una tienda en línea completamente funcional, lista para vender, cobrar y enviar el mismo día.",
       pairs: [
         {
           problem:
-            '"Quiero vender en línea pero no sé por dónde empezar, es muy caro o necesito a alguien que me ayude."',
+            "Quieres vender pero no sabes de diseño, no sabes programar y contratar una agencia cuesta miles de pesos.",
+          example:
+            "Ej: Haces joyería artesanal y la vendes por Instagram. Sabes que necesitas tu propia tienda pero no tienes idea de cómo hacerla y las agencias te cobran muchísimo.",
           solution:
-            "Describe tu negocio en un texto y T1 crea tu tienda completa con IA — lista para vender el mismo día.",
+            "Describe tu negocio en un texto y T1 crea tu tienda completa con inteligencia artificial en segundos. Sin código, sin diseño, sin agencia.",
         },
         {
           problem:
-            '"Necesito conectar mi tienda con marketplaces como Amazon o Mercado Libre pero es complicado."',
+            "No tienes tienda porque crees que necesitas invertir mucho dinero, o la que tienes no te deja cobrar ni enviar sin depender de otras herramientas.",
+          example:
+            "Ej: Un emprendedor de productos de skincare tiene su tienda en una plataforma, pero para cobrar tuvo que contratar una pasarela aparte y para enviar usa otra herramienta diferente. Tres herramientas separadas para llevar un solo negocio.",
           solution:
-            "Conecta y sincroniza inventario, pedidos y precios con los principales marketplaces desde un solo lugar.",
+            "Tu tienda en T1 está lista para vender, cobrar y enviar a todo México desde el primer día, con pagos y envíos conectados sin configurar nada extra.",
         },
         {
           problem:
-            '"Ya vendo en redes sociales pero pierdo ventas porque no tengo un catálogo profesional ni métodos de pago formales."',
+            "Vendes en varios canales (Amazon, Mercado Libre, TikTok Shop) y manejas todo por separado: pedidos, inventario y datos que no cuadran.",
+          example:
+            "Ej: Una marca de ropa vende en Mercado Libre y Amazon. Actualizan inventario a mano en cada plataforma y la semana pasada vendieron una talla que ya no tenían en stock.",
           solution:
-            "Tu tienda T1 se conecta con WhatsApp, Instagram y redes sociales para que conviertas seguidores en clientes.",
+            "T1tienda centraliza todos tus canales de venta en un solo lugar. Conecta +10 marketplaces y administra inventario y pedidos sin brincar entre plataformas.",
         },
       ],
-      badge:
-        "T1tienda ha creado más de 25,000 tiendas en línea. La primera en el mundo que convierte un texto en un negocio funcional.",
     },
     {
       name: "t1envios" as const,
-      subtitle: "Cotiza, compara y envía en un clic",
+      subtitle:
+        "Cotiza, compara y envía con las mejores paqueterías de México en segundos. Elige por precio, tiempo de entrega o servicio, y monitorea cada paquete en tiempo real.",
       pairs: [
         {
           problem:
-            '"Enviar paquetes es caro y complicado. Cada paquetería tiene su propio sistema."',
+            "No todos los envíos necesitan lo mismo, pero siempre terminas mandando todo igual: con la misma paquetería, al mismo precio, sin poder elegir.",
+          example:
+            "Ej: Vendes artículos de piel personalizados. Un cliente necesita su pedido para mañana y otro no tiene prisa pero quiere el envío más barato. Hoy no tienes forma de darle a cada uno lo que necesita.",
           solution:
-            "Cotiza y compara tarifas de FedEx, DHL, UPS, Estafeta, 99 Minutos y más, todo desde un solo lugar con descuentos preferenciales.",
+            "Con T1envíos eliges lo que importa en cada envío: precio, velocidad o servicio. Tú decides qué priorizar según lo que tu cliente necesita.",
         },
         {
           problem:
-            '"Los clientes me preguntan constantemente \'¿dónde está mi paquete?\' y pierdo tiempo respondiendo."',
+            "Cotizas con una sola paquetería sin comparar y terminas pagando de más o eligiendo un servicio que no cumple.",
+          example:
+            "Ej: Un negocio de accesorios para celular lleva un año enviando con la misma paquetería porque fue la primera que encontró. Nunca ha comparado y no sabe que por el mismo envío podría pagar menos.",
           solution:
-            "Rastreo en tiempo real automático que mantiene a tus clientes informados sin que tú hagas nada.",
+            "T1envíos te muestra precios y tiempos de las mejores paqueterías en un solo lugar para que compares y elijas la mejor opción.",
         },
         {
           problem:
-            '"Cuando hay problemas con un envío (paquetes perdidos, dañados) no sé cómo resolverlo."',
+            "Cuando un envío tiene problemas, empiezan los correos, las llamadas y los días perdidos. Mientras tanto, tu cliente se desespera.",
+          example:
+            "Ej: Un paquete se quedó atorado en tránsito. Para darle seguimiento tienes que llamar a la paquetería, esperar, abrir un caso y repetir el proceso cada día. Mientras tanto, tu cliente no tiene idea de qué pasa con su pedido.",
           solution:
-            "Gestión de incidencias integrada: reporta, rastrea y resuelve cualquier problema desde la plataforma.",
+            "Desde el módulo de control de T1envíos gestionas incidencias, rastreos y seguimiento en un solo lugar, sin llamadas ni correos.",
         },
       ],
-      badge:
-        "Más de 40 millones de envíos procesados con tarifas hasta 80% más económicas que las de mostrador.",
     },
     {
       name: "t1pagos" as const,
-      subtitle: "Cobra fácil, seguro y sin terminal",
+      subtitle:
+        "Cobra en segundos con un link de pago. Tu cliente paga con SPEI o tarjetas (a una exhibición o a meses sin intereses), y tú recibes tu dinero al siguiente día hábil.",
       pairs: [
         {
           problem:
-            '"Quiero cobrar con tarjeta pero las terminales son caras y los trámites son complicados."',
+            "Cobras por transferencia, dependes de capturas de pantalla, no tienes otros métodos de pago y pierdes tiempo con seguimiento manual.",
+          example:
+            "Ej: Vendes productos de belleza por WhatsApp. En cada venta mandas tu CLABE, esperas la captura, verificas en tu banca, apuntas en un Excel. Con 10 pedidos al día ya no sabes quién te pagó y quién no.",
           solution:
-            "Crea links de pago en segundos y compártelos por WhatsApp, SMS, email o redes sociales. Sin terminal, sin trámites.",
+            "Con T1pagos creas links de pago en segundos y ofreces múltiples métodos: tarjetas de débito/crédito, MSI y SPEI. Todo con visibilidad y seguimiento automático.",
         },
         {
           problem:
-            '"Me preocupa que me hagan un contracargo y pierda mi dinero."',
+            "Cada pago rechazado es una venta cerrada que se te fue. Tu cliente quería pagar pero el proceso se lo complicó.",
+          example:
+            'Ej: Un cliente quiere comprarte un curso de $3,500 y te pregunta si puede pagar con tarjeta de crédito o a meses. Solo aceptas transferencia. "Ok, gracias", te dice. Nunca regresa.',
           solution:
-            "Seguro de contracargo incluido: si un cliente disputa un pago válido, T1 cubre la pérdida.",
+            "T1pagos acepta diferentes métodos de pago con una tasa de aprobación del 86%.",
         },
         {
           problem:
-            '"Necesito ofrecer meses sin intereses pero los bancos piden muchos requisitos."',
+            "Cobras con otra plataforma y tu dinero se queda atorado días o semanas antes de llegar a tu cuenta.",
+          example:
+            "Ej: Una tienda de accesorios de moda vendió un pedido grande el martes y necesita comprar material para surtirlo. Pero su plataforma de cobros retiene el dinero hasta el martes de la próxima semana.",
           solution:
-            "Ofrece MSI de 3, 6, 9 y 12 meses desde tu primer link de pago. Sin requisitos bancarios adicionales.",
+            "Con T1pagos recibes tu dinero al siguiente día hábil, directo a tu cuenta, con visibilidad completa de cada transacción.",
         },
       ],
-      badge:
-        "86% de tasa de aprobación en transacciones — de las más altas del mercado mexicano. Más de 150 millones de transacciones procesadas.",
     },
   ],
 };
 
 export const HOOKS = {
-  eyebrow: "06 — Hooks sugeridos",
-  title: "Ideas de hooks para tu",
-  titleAccent: "contenido",
-  desc: "Puedes usar estos hooks tal cual o adaptarlos a tu estilo. Lo importante es que el mensaje central se mantenga.",
+  eyebrow: "06 — Banco de inspiración",
+  title: "Hooks y ángulos para",
+  titleAccent: "tu contenido",
+  desc: "Estos hooks son inspiración, no guiones. Adáptalos a tu voz. Lo que mejor funciona es cuando suena a ti.",
   groups: [
     {
       product: "t1tienda" as const,
-      tag: "Tienda",
+      tag: "Videos cortos · Demos · Tutoriales",
       items: [
-        '"Le dije a una IA que quería vender playeras… y en 1 minuto ya tenía mi tienda online lista."',
-        '"Si te dijera que puedes tener tu tienda en línea antes de que termine este video, ¿me creerías?"',
-        '"Esto es todo lo que necesitas para abrir tu negocio online hoy" (mostrar el proceso en pantalla).',
-        '"POV: Decidiste emprender y en 60 segundos ya estás vendiendo en internet."',
-        '"3 cosas que necesitabas antes para vender online: programador, diseñador y miles de pesos. Hoy solo necesitas T1."',
-        '"Le describí mi negocio en un párrafo a T1 y mira lo que creó..." (screenrecording del resultado).',
-        '"Acabo de crear una tienda online en lo que tardas en pedir un café."',
+        "Imagina crear tu tienda en línea con un simple texto, sin programar, sin saber de diseño, sin gastar miles de pesos.",
+        "Crea tu propia tienda como siempre la imaginaste en menos de 1 minuto.",
+        "Así creas tu tienda en segundos con inteligencia artificial, lista para vender, cobrar y enviar el mismo día.",
+        "Te apuesto a que no sabías que puedes crear una tienda en línea lista para vender en menos de 30 segundos solo escribiendo lo que vendes.",
+        "No puedo creer que la gente siga pagando miles de pesos por una tienda en línea cuando esto existe.",
+        "\u201CQuiero vender pero no sé ni por dónde empezar.\u201D Si lo has dicho alguna vez, este video es para ti.",
+        "Escribí un texto de lo que vendo. 30 segundos después tenía una tienda en línea lista para vender. Te enseño cómo.",
       ],
     },
     {
       product: "t1envios" as const,
-      tag: "Envíos",
+      tag: "Informativos · Consejos · Storytime",
       items: [
-        '"¿Sabías que puedes enviar un paquete a cualquier parte de México pagando hasta 80% menos?"',
-        '"Deja de ir a 5 páginas diferentes para cotizar envíos. Aquí comparas todas en un clic."',
-        '"El secreto de las tiendas online que ofrecen envío barato" (mostrar T1envíos).',
-        '"POV: Un cliente te compra desde Cancún y en 2 clics ya generaste su guía de envío."',
+        "Haz que cada entrega sea la razón por la que tus clientes vuelven.",
+        "Si tu envío llega tarde, tu cliente no se queja. Simplemente no vuelve a comprar.",
+        "Nadie te dirá esto, pero la razón por la que tus clientes no te vuelven a comprar probablemente no es tu producto\u2026 es tu envío.",
+        "Así es como las grandes empresas manejan sus envíos. Y ahora tú también lo puedes hacer.",
       ],
     },
     {
       product: "t1pagos" as const,
-      tag: "Pagos",
+      tag: "Tips · Demos rápidas · Educativo",
       items: [
-        '"Ya no necesitas terminal bancaria para cobrar con tarjeta. Te enseño cómo."',
-        '"Cobré $15,000 con un link que creé en 10 segundos. Así funciona T1pagos."',
-        '"¿Vendes por WhatsApp? Así puedes cobrar con tarjeta sin terminal ni complicaciones."',
-        '"Ofrece meses sin intereses desde tu primer venta. Sin banco, sin trámites."',
+        "Cada pago rechazado es una venta que ya tenías ganada y se fue.",
+        "Si todavía le pides a tus clientes que te hagan una transferencia y te manden captura, necesitas ver esto.",
+        "¿Sabías que puedes cobrar con tarjeta, SPEI y hasta meses sin intereses con un link?",
+        "Pagar debe ser la experiencia más fácil de tu negocio.",
       ],
     },
     {
       product: "t1" as const,
-      tag: "General",
+      tag: "Overview · Aspiracional · Transformación",
       items: [
-        '"Si vendes (o quieres vender) en México, necesitas conocer T1."',
-        '"El 90% de los negocios en México siguen cobrando por transferencia. Hay algo mejor."',
-        '"Emprender en México en 2026 se ve así" (mostrar el ecosistema T1).',
-        '"Todo lo que un negocio necesita en un solo lugar: tienda, pagos y envíos. Se llama T1."',
-        '"POV: Descubres la plataforma que te faltaba para tu negocio."',
-        '"3 herramientas que todo negocio en México debería usar" (T1tienda, T1pagos, T1envíos).',
-        '"Esto hubiera cambiado mi negocio hace 2 años" (reacción descubriendo T1).',
-        '"La app mexicana que está cambiando cómo vendemos en internet."',
+        "Todo tu negocio, en un solo lugar.",
+        "¿Cuántas apps usas para vender, cobrar y enviar? ¿Y si todo estuviera en una sola?",
+        "Antes tenía una herramienta para la tienda, otra para cobrar y otra para enviar. Ahora todo está en T1.",
+        "Así es cómo transformé una simple idea en una tienda en línea con pagos y envíos integrados. En la misma tarde.",
+        "¿Quieres vender pero no sabes cómo hacer la tienda, cómo cobrar ni cómo enviar? Te lo resuelvo en un solo video.",
+        "Antes necesitabas un diseñador para la tienda, un sistema para cobrar y otro para enviar. Ahora solo necesitas T1.",
+        "Si estabas buscando una señal para dar el salto: es este el momento\u2026",
+        "Herramienta mexicana que está cambiando cómo iniciar y hacer crecer un negocio.",
       ],
     },
   ],
 };
 
 export const DOS_DONTS = {
-  eyebrow: "07 — Reglas de contenido",
+  eyebrow: "07 — Do's & Don'ts",
   title: "Do's &",
   titleAccent: "Don'ts",
-  desc: "Para mantener la calidad y coherencia del mensaje, sigue estas guías:",
+  dosHeading: "✅ Lo que sí",
+  dontsHeading: "🚫 Lo que no",
   dos: [
-    { bold: "Sé auténtico:", text: "Usar tu propio estilo y voz." },
-    {
-      bold: "Habla desde la experiencia:",
-      text: "Comparte lo que genuinamente te parece valioso.",
-    },
-    {
-      bold: "Muestra, no solo cuentes:",
-      text: "Muestra el proceso real — crea una tienda, genera un link, cotiza un envío.",
-    },
-    {
-      bold: "Usa los datos:",
-      text: "Menciona datos reales: 25K+ negocios, 86% aprobación, 40M+ envíos.",
-    },
-    {
-      bold: "Incluye call to action:",
-      text: "Invita a explorar t1.com o a crear su cuenta.",
-    },
-    {
-      bold: "Comunica el ecosistema:",
-      text: "Es una plataforma todo-en-uno para comercio, no solo una tienda online.",
-    },
-    {
-      bold: "Respeta la marca:",
-      text: "T1 se escribe siempre con T mayúscula y 1 (número), y sus productos son T1tienda, T1pagos y T1envíos.",
-    },
-    {
-      bold: "Personaliza el mensaje:",
-      text: "Adapta el mensaje a lo que le importa a tu audiencia específica.",
-    },
+    'Hablar de <strong>funciones reales de T1.</strong>',
+    'Usar <strong>T1tienda / T1pagos / T1envíos.</strong> Para la tienda en línea: Usar el término <strong>tienda en línea.</strong>',
+    'Explicar que T1 conecta tienda, cobros y envíos, <strong>\u201CEl ecosistema del comercio moderno\u201D.</strong>',
+    'Decir claramente <strong>qué problema resuelve T1.</strong>',
+    'Tono natural, cercano y auténtico.',
+    'Usar tecnicismos solo si están <strong>bien explicados.</strong>',
+    'Hablar del valor de T1 <strong>sin comparativas directas.</strong>',
+    'Beneficios <strong>reales y creíbles.</strong>',
   ],
   donts: [
-    {
-      bold: "No inventes:",
-      text: "No inventes funcionalidades ni prometas cosas que no existen en la plataforma.",
-    },
-    {
-      bold: "No exageres:",
-      text: 'No digas que es "gratis" si no lo es. No exageres las capacidades.',
-    },
-    {
-      bold: "No cambies el nombre:",
-      text: 'No digas "T-uno" ni "te-uno". Evita "T1 Tienda" (es T1tienda, junto).',
-    },
-    {
-      bold: "No compares directamente:",
-      text: "No hables mal de Shopify, Mercado Libre, Stripe, etc. Enfócate en lo que T1 ofrece.",
-    },
-    {
-      bold: "No prometas resultados:",
-      text: "No prometas resultados de ventas específicos ni garantices ingresos.",
-    },
-    {
-      bold: "No seas genérico:",
-      text: 'No te limites a decir "es muy bueno" sin mostrar por qué.',
-    },
-    {
-      bold: "No hagas infomercial:",
-      text: "No hagas contenido que se sienta como comercial de TV. Debe sentirse natural.",
-    },
-    {
-      bold: "No asumas que conocen T1:",
-      text: "No uses T1 solo como tag sin explicar qué es.",
-    },
+    '<strong>Inventar</strong> funciones o resultados.',
+    '<strong>Cambiar</strong> nombres o escribirlos <strong>diferente.</strong> Para la tienda en línea: <strong>No usar términos como</strong> página web, página, tienda online, sitio web, e-commerce, etc.',
+    'Mostrar T1 como <strong>una sola herramienta.</strong>',
+    'Mensajes <strong>ambiguos</strong> que <strong>no se entienden.</strong>',
+    'Sobreventa <strong>agresiva o forzada.</strong>',
+    'Explicar mal términos técnicos y <strong>causar confusión.</strong>',
+    'Mencionar competidores por nombre <strong>para comparar o atacar.</strong>',
+    'Promesas <strong>absolutas o no comprobables.</strong>',
   ],
-  examplesTitle: "Ejemplos concretos",
+  examplesTitle: "Ejemplos rápidos",
   examples: [
     {
-      good: '"Literal describí mi negocio y en un minuto ya tenía tienda, pagos y envíos listos. Se llama T1 y es mexicana."',
-      bad: '"¡INCREÍBLE! ¡La mejor plataforma del MUNDO! ¡Hagan su tienda YA! Link en bio."',
+      good: '✅ \u201CCreé mi tienda en línea en menos de un minuto, sin saber nada de diseño.\u201D',
+      bad: '🚫 \u201CCreé mi página web con T1 y tripliqué mis ventas en una semana.\u201D',
     },
     {
-      good: '"Si vendes por WhatsApp y sigues cobrando por transferencia, necesitas ver esto..." (muestra T1pagos).',
-      bad: '"Con T1 vas a ganar millones de pesos vendiendo en línea, te lo garantizo."',
+      good: '✅ \u201CT1 conecta tu tienda, tus pagos y tus envíos en un solo lugar.\u201D',
+      bad: '🚫 \u201CT1 solo sirve para hacer tiendas en línea.\u201D',
     },
     {
-      good: '"Comparé precios de envío en 5 paqueterías en un solo clic. Las diferencias son increíbles." (screenrecording).',
-      bad: '"T1 es mejor que Shopify, MercadoLibre y Amazon juntos."',
+      good: '✅ \u201CMi tienda ya tiene pagos y envíos listos, no tuve que configurar nada extra.\u201D',
+      bad: '🚫 \u201CT1 es la única plataforma que necesitas para hacerte millonario en segundos.\u201D',
     },
   ],
 };
 
 export const RECURSOS = {
-  eyebrow: "08 — Recursos",
-  title: "Materiales de",
-  titleAccent: "referencia",
-  desc: "Todo lo que necesitas para crear tu contenido.",
+  eyebrow: "08 — Recursos y materiales",
+  title: "Recursos y",
+  titleAccent: "materiales",
   cards: [
     {
-      icon: "🎬",
+      icon: "📹",
       title: "Videos de referencia",
-      desc: "Mira estos videos para entender el tono y estilo que buscamos:",
+      desc: "Videos de campaña para que veas el tono y estilo de comunicación de T1.",
       links: [
         {
-          label: "Video T1 — Ecosistema",
-          href: "https://www.youtube.com/watch?v=fxeJCpCx-1M",
+          label: "T1",
+          href: "https://youtu.be/ehFjB2ipwh0",
         },
         {
-          label: "Video T1tienda",
-          href: "https://www.youtube.com/watch?v=n93KXvrk1p0",
+          label: "T1tienda",
+          href: "https://youtu.be/ohzEVSQ41Gw",
         },
         {
-          label: "Video T1pagos",
-          href: "https://www.youtube.com/watch?v=RVtPR9mZb50",
+          label: "T1pagos",
+          href: "https://youtu.be/kEx6A_nlNmc",
         },
-        { label: "Video T1envíos (próximamente)", href: "#" },
+        { label: "T1envíos (próximamente)", href: "#", disabled: true },
       ],
     },
     {
-      icon: "🌐",
+      icon: "🖥️",
       title: "Plataforma",
-      desc: "Explora la plataforma para que la conozcas de primera mano:",
+      desc: "Explora T1 directamente. Crea una cuenta gratuita y prueba crear una tienda con IA.",
       links: [{ label: "Visitar t1.com", href: "https://t1.com" }],
     },
   ],
