@@ -12,7 +12,7 @@ import DosDonts from "@/components/DosDonts";
 import Recursos from "@/components/Recursos";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function App() {
   return (
     <>
       <ScrollAnimator />

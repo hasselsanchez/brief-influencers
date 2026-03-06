@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { FOOTER } from "@/lib/constants";
 import t1iconLogo from "@/assets/logos/t1-icon.svg";
 
@@ -11,10 +10,9 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="mb-2 flex items-center font-[family-name:var(--font-sora)] text-2xl font-bold text-white">
-              <Image
+              <img
                 src={t1iconLogo}
                 alt="T1"
-                height={28}
                 className="h-7 w-auto brightness-0 invert"
               />
               <span className="ml-2 font-normal text-base text-[#9CA3AF]">

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { QUE_ES } from "@/lib/constants";
 import t1tiendaLogo from "@/assets/logos/t1tienda.svg";
 import t1pagosLogo from "@/assets/logos/t1pagos.svg";
@@ -50,10 +49,9 @@ export default function QueEsT1() {
                 style={{ background: product.glowColor }}
               />
               <h3 className="mb-2">
-                <Image
+                <img
                   src={logos[product.name]}
                   alt={product.name}
-                  height={logoHeights[product.name]}
                   className="w-auto"
                   style={{ height: logoHeights[product.name] }}
                 />

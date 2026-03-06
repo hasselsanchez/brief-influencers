@@ -1,7 +1,4 @@
-"use client";
-
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { NAV_LINKS } from "@/lib/constants";
 import t1iconLogo from "@/assets/logos/t1-icon.svg";
 
@@ -22,11 +19,9 @@ export default function Nav() {
     >
       <div className="mx-auto flex w-full max-w-[1018px] items-center justify-between px-6">
         <a href="#" className="flex items-center">
-          <Image
+          <img
             src={t1iconLogo}
             alt="T1"
-            width={32}
-            height={30}
             className="h-8 w-auto"
           />
         </a>

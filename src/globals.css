@@ -35,8 +35,8 @@
   --color-oxford: #4C4C4C;
   --color-rosa-suave: #FFFAFA;
 
-  --font-sora: var(--font-sora);
-  --font-inter: var(--font-inter);
+  --font-sora: 'Sora', sans-serif;
+  --font-inter: 'Inter', sans-serif;
 
   --breakpoint-tablet: 768px;
 

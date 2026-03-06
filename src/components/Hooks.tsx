@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { HOOKS } from "@/lib/constants";
 import t1tiendaLogo from "@/assets/logos/t1tienda.svg";
 import t1pagosLogo from "@/assets/logos/t1pagos.svg";
@@ -38,10 +37,9 @@ export default function Hooks() {
         {HOOKS.groups.map((group) => (
           <div key={group.product} className="mb-12" data-animate>
             <div className="mb-4 flex items-center gap-3">
-              <Image
+              <img
                 src={logos[group.product]}
                 alt={group.product}
-                height={group.product === "t1" ? 20 : 20}
                 className="h-5 w-auto"
               />
               <span className="rounded-full bg-brand-red-50 px-3.5 py-1 font-[family-name:var(--font-inter)] text-[11px] font-semibold uppercase tracking-[0.08em] text-[#E26153]">

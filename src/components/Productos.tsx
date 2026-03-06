@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { PRODUCTOS } from "@/lib/constants";
 import DotPattern from "./ui/DotPattern";
 import t1tiendaLogo from "@/assets/logos/t1tienda.svg";
@@ -43,10 +42,9 @@ export default function Productos() {
           >
             {/* Product header */}
             <div className="mb-3 mt-14 flex items-center gap-4">
-              <Image
+              <img
                 src={logos[block.name]}
                 alt={block.name}
-                height={24}
                 className="h-6 w-auto"
               />
             </div>
