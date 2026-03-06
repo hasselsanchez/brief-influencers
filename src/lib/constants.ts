@@ -168,7 +168,7 @@ export const AUDIENCIA = {
     {
       emoji: "🚀",
       title: "Curiosos digitales y nuevos vendedores",
-      desc: "Quieren empezar a vender. No tienen conocimientos técnicos, pero sí curiosidad por la tecnología y buscan algo simple y rápido.",
+      desc: "Quieren empezar a vender. No tienen conocimientos técnicos, pero sí curiosidad por la tecnología y buscan algo fácil, rápido y seguro.",
     },
     {
       emoji: "📱",
