@@ -307,10 +307,10 @@ export const HOOKS = {
       items: [
         "Imagina crear tu tienda en línea con un simple texto, sin programar, sin saber de diseño, sin gastar miles de pesos.",
         "Crea tu propia tienda como siempre la imaginaste en menos de 1 minuto.",
-        "Así creas tu tienda en segundos con inteligencia artificial, lista para vender, cobrar y enviar el mismo día.",
+        "Llevaba meses atrasando hacer mi tienda en línea, y hoy la hice en menos de 1 minuto.",
         "Te apuesto a que no sabías que puedes crear una tienda en línea lista para vender en menos de 30 segundos solo escribiendo lo que vendes.",
         "No puedo creer que la gente siga pagando miles de pesos por una tienda en línea cuando esto existe.",
-        "\u201CQuiero vender pero no sé ni por dónde empezar.\u201D Si lo has dicho alguna vez, este video es para ti.",
+        "Así conviertes una simple idea, en un negocio completamente funcional en un día",
         "Escribí un texto de lo que vendo. 30 segundos después tenía una tienda en línea lista para vender. Te enseño cómo.",
       ],
     },
@@ -322,6 +322,8 @@ export const HOOKS = {
         "Si tu envío llega tarde, tu cliente no se queja. Simplemente no vuelve a comprar.",
         "Nadie te dirá esto, pero la razón por la que tus clientes no te vuelven a comprar probablemente no es tu producto\u2026 es tu envío.",
         "Así es como las grandes empresas manejan sus envíos. Y ahora tú también lo puedes hacer.",
+        "Así ahorras cientos de pesos en tus envíos.",
+        "Por meses estuve perdiendo dinero y clientes y no sabía la razón... hasta ahora",
       ],
     },
     {
@@ -332,6 +334,9 @@ export const HOOKS = {
         "Si todavía le pides a tus clientes que te hagan una transferencia y te manden captura, necesitas ver esto.",
         "¿Sabías que puedes cobrar con tarjeta, SPEI y hasta meses sin intereses con un link?",
         "Pagar debe ser la experiencia más fácil de tu negocio.",
+        "Así cobras como un profesional desde tu celular",
+        "Ofrecer MSI en tu negocio es posible, te explico cómo",
+        "Cobrar el envío y tu producto con un solo link",
       ],
     },
     {
@@ -339,7 +344,7 @@ export const HOOKS = {
       tag: "Overview · Aspiracional · Transformación",
       items: [
         "Todo tu negocio, en un solo lugar.",
-        "¿Cuántas apps usas para vender, cobrar y enviar? ¿Y si todo estuviera en una sola?",
+        "¿Cuántas herramientas usas para vender, cobrar y enviar? ¿Y si todo estuviera en una sola?",
         "Antes tenía una herramienta para la tienda, otra para cobrar y otra para enviar. Ahora todo está en T1.",
         "Así es cómo transformé una simple idea en una tienda en línea con pagos y envíos integrados. En la misma tarde.",
         "¿Quieres vender pero no sabes cómo hacer la tienda, cómo cobrar ni cómo enviar? Te lo resuelvo en un solo video.",
