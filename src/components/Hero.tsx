@@ -40,7 +40,7 @@ export default function Hero() {
         </h1>
 
         <p
-          className="mx-auto mb-6 tablet:mb-10 max-w-[540px] font-[family-name:var(--font-inter)] font-light text-base leading-[1.7] text-black animate-fade-in-up"
+          className="mx-auto mb-6 tablet:mb-10 max-w-[540px] font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500 animate-fade-in-up"
           style={{ animationDelay: "0.2s", animationFillMode: "both" }}
         >
           {HERO.subtitle}
