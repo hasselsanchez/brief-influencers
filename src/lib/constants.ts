@@ -167,8 +167,8 @@ export const AUDIENCIA = {
   profiles: [
     {
       emoji: "🚀",
-      title: "Emprendedores y creadores",
-      desc: "Quieren vender por primera vez. No tienen conocimientos técnicos y buscan algo fácil y rápido.",
+      title: "Curiosos digitales y nuevos vendedores",
+      desc: "Quieren empezar a vender. No tienen conocimientos técnicos, pero sí curiosidad por la tecnología y buscan algo simple y rápido.",
     },
     {
       emoji: "📱",
