@@ -3,7 +3,7 @@ import { HERO } from "@/lib/constants";
 export default function Hero() {
   return (
     <section
-      className="relative overflow-hidden px-4 pt-[90px] pb-[40px] tablet:px-6 tablet:pt-[140px] tablet:pb-[100px]"
+      className="relative overflow-hidden px-4 pt-[120px] pb-[50px] tablet:px-6 tablet:pt-[160px] tablet:pb-[100px]"
       style={{
         background: "linear-gradient(to bottom, #E59086, #F2B5AE, #FFFFFF)",
       }}
@@ -29,7 +29,7 @@ export default function Hero() {
         </div>
 
         <h1
-          className="mb-6 tablet:mb-8 font-[family-name:var(--font-sora)] font-light leading-[1.15] text-gray-900 animate-fade-in-up"
+          className="mb-6 tablet:mb-8 font-[family-name:var(--font-sora)] font-extralight leading-[1.15] text-gray-900 animate-fade-in-up"
           style={{
             fontSize: "clamp(38px, 6vw, 60px)",
             animationDelay: "0.1s",

@@ -23,7 +23,7 @@ export default function QueEsT1() {
           {QUE_ES.eyebrow}
         </p>
         <h2
-          className="mb-4 font-[family-name:var(--font-sora)] font-light leading-[1.2] text-gray-900"
+          className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-gray-900"
           style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
         >
           {QUE_ES.title} <span className="text-[#E26153]">{QUE_ES.titleAccent}</span>

@@ -47,8 +47,10 @@ export default function Nav() {
   return (
     <>
       <nav
-        className={`fixed top-0 left-0 right-0 z-50 flex h-[70px] items-center justify-between bg-white/90 backdrop-blur-[12px] transition-shadow duration-300 ${
-          scrolled ? "shadow-[0px_0px_25px_2px_rgba(0,0,0,0.06)]" : ""
+        className={`fixed top-0 left-0 right-0 z-50 flex h-[70px] items-center justify-between transition-all duration-300 ${
+          scrolled
+            ? "bg-white/90 backdrop-blur-[12px] shadow-[0px_0px_25px_2px_rgba(0,0,0,0.06)]"
+            : "bg-transparent"
         }`}
       >
         <div className="mx-auto flex w-full max-w-[1018px] items-center justify-between px-4 tablet:px-6">

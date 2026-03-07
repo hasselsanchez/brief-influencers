@@ -14,7 +14,7 @@ export default function Audiencia() {
           {AUDIENCIA.eyebrow}
         </p>
         <h2
-          className="mb-4 font-[family-name:var(--font-sora)] font-light leading-[1.2] text-gray-900"
+          className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-gray-900"
           style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
         >
           {AUDIENCIA.title}{" "}
