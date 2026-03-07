@@ -12,8 +12,12 @@ export const HERO = {
   titleAccent: "influencers",
   subtitle:
     "Tu guía completa para crear contenido que posicione a T1 como el ecosistema del comercio moderno en México.",
-  ribbonStats:
-    "25K+ negocios  ·  150M+ transacciones  ·  40M+ envíos  ·  86% aprobación",
+  stats: [
+    { number: "+25,000", label: "tiendas" },
+    { number: "+150M", label: "transacciones" },
+    { number: "+40M", label: "de envíos" },
+    { number: "86%", label: "aprobación" },
+  ],
 };
 
 export const QUE_ES = {

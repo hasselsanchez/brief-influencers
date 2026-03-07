@@ -47,10 +47,18 @@ export default function Hero() {
         </p>
 
         <div
-          className="inline-block rounded-full border border-white/40 bg-white/55 px-7 py-2.5 font-[family-name:var(--font-inter)] text-[13px] font-medium tracking-[0.02em] text-gray-700 backdrop-blur-[8px] animate-fade-in-up"
+          className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 font-[family-name:var(--font-inter)] text-sm tracking-[-0.01em] text-gray-700 animate-fade-in-up"
           style={{ animationDelay: "0.4s", animationFillMode: "both" }}
         >
-          {HERO.ribbonStats}
+          {HERO.stats.map((stat, i) => (
+            <span key={i} className="inline-flex items-center gap-2 whitespace-nowrap">
+              {i > 0 && <span className="text-gray-300">·</span>}
+              <span>
+                <strong className="font-semibold text-gray-900">{stat.number}</strong>{" "}
+                {stat.label}
+              </span>
+            </span>
+          ))}
         </div>
       </div>
     </section>
