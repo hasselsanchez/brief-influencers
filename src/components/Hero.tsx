@@ -3,9 +3,9 @@ import { HERO } from "@/lib/constants";
 export default function Hero() {
   return (
     <section
-      className="relative overflow-hidden px-4 pt-[120px] pb-[50px] tablet:px-6 tablet:pt-[160px] tablet:pb-[100px]"
+      className="relative overflow-hidden px-4 pt-[120px] pb-[100px] tablet:px-6 tablet:pt-[160px] tablet:pb-[160px]"
       style={{
-        background: "radial-gradient(ellipse 160% 100% at 50% 45%, #F2B5AE 0%, #F5C4BC 15%, #F9D2D2 30%, #FDE8E5 45%, #FEF1EF 55%, #FFF8F7 65%, #FFFCFC 75%, #FFFFFF 90%)",
+        background: "radial-gradient(ellipse 160% 75% at 50% 40%, #F2B5AE 0%, #F5C4BC 15%, #F9D2D2 28%, #FDE8E5 40%, #FEF1EF 50%, #FFF8F7 60%, #FFFCFC 72%, #FFFFFF 88%)",
       }}
     >
       {/* Glow blobs */}
