@@ -5,7 +5,7 @@ export default function Hero() {
     <section
       className="relative overflow-hidden px-4 pt-[120px] pb-[50px] tablet:px-6 tablet:pt-[160px] tablet:pb-[100px]"
       style={{
-        background: "linear-gradient(to bottom, #E59086, #F2B5AE, #FFFFFF)",
+        background: "linear-gradient(to bottom, #FFFFFF, #F2B5AE 45%, #E59086 55%, #F2B5AE 65%, #FFFFFF)",
       }}
     >
       {/* Glow blobs */}
