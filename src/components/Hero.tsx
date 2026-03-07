@@ -24,9 +24,9 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-[721px] text-center">
-        <p className="mb-6 tablet:mb-8 animate-fade-in-up font-[family-name:var(--font-inter)] text-[11px] font-semibold uppercase tracking-[0.15em] text-[#E26153]/70">
+        <div className="mb-6 tablet:mb-8 inline-flex animate-fade-in-up items-center rounded-full border border-white/40 bg-white/60 px-3.5 py-1 backdrop-blur-[12px] font-[family-name:var(--font-inter)] text-[10px] font-semibold uppercase tracking-[0.12em] text-[#E26153]">
           {HERO.badge}
-        </p>
+        </div>
 
         <h1
           className="mb-6 tablet:mb-8 font-[family-name:var(--font-sora)] font-light leading-[1.15] text-gray-900 animate-fade-in-up"

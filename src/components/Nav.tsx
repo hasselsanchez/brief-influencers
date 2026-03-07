@@ -1,10 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { NAV_LINKS } from "@/lib/constants";
 import t1iconLogo from "@/assets/logos/t1-icon.svg";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [menuVisible, setMenuVisible] = useState(false);
+  const drawerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
@@ -23,6 +25,24 @@ export default function Nav() {
       document.body.style.overflow = "";
     };
   }, [menuOpen]);
+
+  // Open with animation
+  const openMenu = () => {
+    setMenuOpen(true);
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        setMenuVisible(true);
+      });
+    });
+  };
+
+  // Close with animation
+  const closeMenu = () => {
+    setMenuVisible(false);
+    setTimeout(() => {
+      setMenuOpen(false);
+    }, 300);
+  };
 
   return (
     <>
@@ -64,7 +84,7 @@ export default function Nav() {
             </a>
             {/* Hamburger button (mobile only) */}
             <button
-              onClick={() => setMenuOpen(true)}
+              onClick={openMenu}
               className="flex tablet:hidden items-center justify-center w-10 h-10"
               aria-label="Abrir menú"
             >
@@ -83,18 +103,25 @@ export default function Nav() {
         <div className="fixed inset-0 z-[60] tablet:hidden">
           {/* Backdrop */}
           <div
-            className="absolute inset-0 bg-black/40"
-            onClick={() => setMenuOpen(false)}
+            className={`absolute inset-0 bg-black/40 transition-opacity duration-300 ${
+              menuVisible ? "opacity-100" : "opacity-0"
+            }`}
+            onClick={closeMenu}
           />
-          {/* Drawer */}
-          <div className="absolute top-0 left-0 right-0 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.15)]">
+          {/* Drawer — slides down */}
+          <div
+            ref={drawerRef}
+            className={`absolute top-0 left-0 right-0 bg-white shadow-[0_20px_60px_rgba(0,0,0,0.15)] transition-transform duration-300 ease-out ${
+              menuVisible ? "translate-y-0" : "-translate-y-full"
+            }`}
+          >
             {/* Header with close */}
             <div className="flex h-[70px] items-center justify-between px-4">
-              <a href="#" className="flex items-center" onClick={() => setMenuOpen(false)}>
+              <a href="#" className="flex items-center" onClick={closeMenu}>
                 <img src={t1iconLogo} alt="T1" className="h-8 w-auto" />
               </a>
               <button
-                onClick={() => setMenuOpen(false)}
+                onClick={closeMenu}
                 className="flex items-center justify-center w-10 h-10"
                 aria-label="Cerrar menú"
               >
@@ -110,8 +137,8 @@ export default function Nav() {
                 <a
                   key={link.href}
                   href={link.href}
-                  onClick={() => setMenuOpen(false)}
-                  className="block border-b border-gray-100 py-4 font-[family-name:var(--font-inter)] text-base font-medium text-gray-800 transition-colors hover:text-[#E26153]"
+                  onClick={closeMenu}
+                  className="block border-b border-gray-100 py-4 font-[family-name:var(--font-inter)] font-light text-base text-gray-800 transition-colors hover:text-[#E26153]"
                 >
                   {link.label}
                 </a>
@@ -121,7 +148,7 @@ export default function Nav() {
                 href="https://t1.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={() => setMenuOpen(false)}
+                onClick={closeMenu}
                 className="mt-5 inline-flex h-[45px] items-center justify-center rounded-[18px] bg-[#E26153] px-7 font-[family-name:var(--font-inter)] text-sm font-semibold text-white transition-colors duration-200 hover:bg-[#DB3B2B]"
               >
                 Explorar T1 →
