@@ -40,7 +40,7 @@ export default function Hero() {
         </h1>
 
         <p
-          className="mx-auto mb-6 tablet:mb-10 max-w-[540px] font-[family-name:var(--font-inter)] text-base leading-[1.7] text-gray-500 animate-fade-in-up"
+          className="mx-auto mb-6 tablet:mb-10 max-w-[540px] font-[family-name:var(--font-inter)] font-light text-base leading-[1.7] text-gray-500 animate-fade-in-up"
           style={{ animationDelay: "0.2s", animationFillMode: "both" }}
         >
           {HERO.subtitle}
@@ -51,8 +51,8 @@ export default function Hero() {
           style={{ animationDelay: "0.4s", animationFillMode: "both" }}
         >
           {HERO.stats.map((stat, i) => (
-            <span key={i} className="inline-flex items-center gap-2 whitespace-nowrap">
-              {i > 0 && <span className="text-gray-300">·</span>}
+            <span key={i} className="inline-flex items-center gap-3 whitespace-nowrap">
+              {i > 0 && <span className="text-gray-400 text-[8px]">●</span>}
               <span>
                 <strong className="font-semibold text-gray-900">{stat.number}</strong>{" "}
                 {stat.label}
