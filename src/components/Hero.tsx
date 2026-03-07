@@ -24,14 +24,14 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 mx-auto max-w-[721px] text-center">
-        <div className="mb-5 tablet:mb-8 inline-flex animate-fade-in-up items-center gap-2 rounded-full border border-white/50 bg-white/75 px-5 py-2 shadow-[0_4px_16px_rgba(0,0,0,0.06)] backdrop-blur-[16px] font-[family-name:var(--font-sora)] text-xs font-semibold text-[#E26153]">
+        <p className="mb-6 tablet:mb-8 animate-fade-in-up font-[family-name:var(--font-inter)] text-[11px] font-semibold uppercase tracking-[0.15em] text-[#E26153]/70">
           {HERO.badge}
-        </div>
+        </p>
 
         <h1
-          className="mb-5 font-[family-name:var(--font-sora)] font-light leading-[1.2] text-gray-900 animate-fade-in-up"
+          className="mb-6 tablet:mb-8 font-[family-name:var(--font-sora)] font-light leading-[1.15] text-gray-900 animate-fade-in-up"
           style={{
-            fontSize: "clamp(36px, 6vw, 60px)",
+            fontSize: "clamp(38px, 6vw, 60px)",
             animationDelay: "0.1s",
             animationFillMode: "both",
           }}
@@ -40,14 +40,14 @@ export default function Hero() {
         </h1>
 
         <p
-          className="mx-auto mb-6 tablet:mb-10 max-w-[540px] font-[family-name:var(--font-inter)] font-light text-base leading-[1.7] text-gray-500 animate-fade-in-up"
+          className="mx-auto mb-8 tablet:mb-12 max-w-[540px] font-[family-name:var(--font-inter)] font-light text-base leading-[1.7] text-gray-500 animate-fade-in-up"
           style={{ animationDelay: "0.2s", animationFillMode: "both" }}
         >
           {HERO.subtitle}
         </p>
 
         <div
-          className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 font-[family-name:var(--font-inter)] text-sm tracking-[-0.01em] text-gray-700 animate-fade-in-up"
+          className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 font-[family-name:var(--font-inter)] text-sm tracking-[-0.01em] text-gray-700 animate-fade-in-up"
           style={{ animationDelay: "0.4s", animationFillMode: "both" }}
         >
           {HERO.stats.map((stat, i) => (
