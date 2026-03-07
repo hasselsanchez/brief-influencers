@@ -5,7 +5,7 @@ export default function Hero() {
     <section
       className="relative overflow-hidden px-4 pt-[120px] pb-[50px] tablet:px-6 tablet:pt-[160px] tablet:pb-[100px]"
       style={{
-        background: "radial-gradient(ellipse 130% 80% at 50% 50%, #F2B5AE 0%, #F5C4BC 20%, #F9D2D2 40%, #FDE8E5 60%, #FFFFFF 85%)",
+        background: "radial-gradient(ellipse 160% 100% at 50% 45%, #F2B5AE 0%, #F5C4BC 15%, #F9D2D2 30%, #FDE8E5 45%, #FEF1EF 55%, #FFF8F7 65%, #FFFCFC 75%, #FFFFFF 90%)",
       }}
     >
       {/* Glow blobs */}
