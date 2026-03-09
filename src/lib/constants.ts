@@ -306,6 +306,20 @@ export const HOOKS = {
   desc: "Estos hooks son inspiración, no guiones. Adáptalos a tu voz. Lo que mejor funciona es cuando suena a ti.",
   groups: [
     {
+      product: "t1" as const,
+      tag: "Overview · Aspiracional · Transformación",
+      items: [
+        "Todo tu negocio, en un solo lugar.",
+        "¿Cuántas herramientas usas para vender, cobrar y enviar? ¿Y si todo estuviera en una sola?",
+        "Antes tenía una herramienta para la tienda, otra para cobrar y otra para enviar. Ahora todo está en T1.",
+        "Así es cómo transformé una simple idea en una tienda en línea con pagos y envíos integrados. En la misma tarde.",
+        "¿Quieres vender pero no sabes cómo hacer la tienda, cómo cobrar ni cómo enviar? Te lo resuelvo en un solo video.",
+        "Antes necesitabas un diseñador para la tienda, un sistema para cobrar y otro para enviar. Ahora solo necesitas T1.",
+        "Si estabas buscando una señal para dar el salto: es este el momento\u2026",
+        "Esta plataforma mexicana está cambiando cómo iniciar y hacer crecer un negocio.",
+      ],
+    },
+    {
       product: "t1tienda" as const,
       tag: "Videos cortos · Demos · Tutoriales",
       items: [
@@ -341,20 +355,6 @@ export const HOOKS = {
         "Así cobras como un profesional desde tu celular",
         "Ofrecer MSI en tu negocio es posible, te explico cómo",
         "Cobrar el envío y tu producto con un solo link",
-      ],
-    },
-    {
-      product: "t1" as const,
-      tag: "Overview · Aspiracional · Transformación",
-      items: [
-        "Todo tu negocio, en un solo lugar.",
-        "¿Cuántas herramientas usas para vender, cobrar y enviar? ¿Y si todo estuviera en una sola?",
-        "Antes tenía una herramienta para la tienda, otra para cobrar y otra para enviar. Ahora todo está en T1.",
-        "Así es cómo transformé una simple idea en una tienda en línea con pagos y envíos integrados. En la misma tarde.",
-        "¿Quieres vender pero no sabes cómo hacer la tienda, cómo cobrar ni cómo enviar? Te lo resuelvo en un solo video.",
-        "Antes necesitabas un diseñador para la tienda, un sistema para cobrar y otro para enviar. Ahora solo necesitas T1.",
-        "Si estabas buscando una señal para dar el salto: es este el momento\u2026",
-        "Esta plataforma mexicana está cambiando cómo iniciar y hacer crecer un negocio.",
       ],
     },
   ],

@@ -92,15 +92,6 @@ export default function Hooks() {
                   alt={g.product}
                   className={`${logoHeight[g.product]} w-auto`}
                 />
-                {g.product === "t1" && (
-                  <span
-                    className={`font-[family-name:var(--font-sora)] text-[13px] font-semibold ${
-                      isActive ? "text-[#E26153]" : "text-gray-600"
-                    }`}
-                  >
-                    general
-                  </span>
-                )}
               </button>
             );
           })}
