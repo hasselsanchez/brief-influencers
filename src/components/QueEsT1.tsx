@@ -18,8 +18,9 @@ const logoHeights: Record<string, number> = {
 export default function QueEsT1() {
   return (
     <section
-      className="relative overflow-hidden bg-white py-10 px-4 tablet:py-14 tablet:px-6"
+      className="relative overflow-hidden py-10 px-4 tablet:py-14 tablet:px-6"
       id="que-es"
+      style={{ background: "linear-gradient(to bottom, #FFF8F7 0%, #FEF1EF 15%, #FEF1EF 50%, #FFF8F7 75%, #FFFFFF 100%)" }}
     >
       <div className="relative z-10 mx-auto max-w-[1018px]" data-animate>
         <p className="mb-3 font-[family-name:var(--font-inter)] text-[11px] font-semibold uppercase tracking-[0.15em] text-gray-400">
@@ -43,15 +44,8 @@ export default function QueEsT1() {
       </div>
 
       <div className="relative mx-auto max-w-[1018px]">
-        {/* Soft pink glow behind cards */}
         <div
-          className="pointer-events-none absolute inset-0 z-0"
-          style={{
-            background: "radial-gradient(ellipse 100% 80% at 50% 45%, #FDE8E5 0%, #FEF1EF 30%, #FFF8F7 55%, transparent 80%)",
-          }}
-        />
-        <div
-          className="relative z-10 grid gap-5"
+          className="grid gap-5"
           style={{ gridTemplateColumns: "repeat(auto-fit, minmax(290px, 1fr))" }}
           data-animate
         >
