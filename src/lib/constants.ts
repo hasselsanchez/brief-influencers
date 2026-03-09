@@ -428,7 +428,7 @@ export const RECURSOS = {
           label: "T1pagos",
           href: "https://youtu.be/kEx6A_nlNmc",
         },
-        { label: "T1envíos", href: "#", disabled: true },
+        { label: "T1envíos", href: "https://www.youtube.com/watch?v=HwhNbo4lxaY" },
       ],
     },
     {
