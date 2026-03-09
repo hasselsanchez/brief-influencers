@@ -3,11 +3,23 @@ import { PRODUCTOS } from "@/lib/constants";
 import t1tiendaLogo from "@/assets/logos/t1tienda.svg";
 import t1pagosLogo from "@/assets/logos/t1pagos.svg";
 import t1enviosLogo from "@/assets/logos/t1envios.svg";
+import t1IconLogo from "@/assets/logos/t1-icon.svg";
 
-const logos: Record<string, typeof t1tiendaLogo> = {
+const logos: Record<string, string> = {
   t1tienda: t1tiendaLogo,
   t1pagos: t1pagosLogo,
   t1envios: t1enviosLogo,
+  t1: t1IconLogo,
+};
+
+/* t1pagos SVG has a taller viewBox (41px vs ~35px) because of the
+   descender on the "g", so we compensate with a slightly taller height
+   to keep the visual cap-height aligned with the other logos. */
+const logoHeight: Record<string, string> = {
+  t1tienda: "h-[20px]",
+  t1pagos: "h-[23px]",
+  t1envios: "h-[20px]",
+  t1: "h-[20px]",
 };
 
 function ChevronIcon({ open }: { open: boolean }) {
@@ -83,12 +95,18 @@ export default function Productos() {
                 onClick={() => toggle(i)}
                 className="flex w-full items-center justify-between px-5 py-5 tablet:px-7 tablet:py-6 transition-colors hover:bg-gray-50/50 cursor-pointer"
               >
-                <div className="flex items-center gap-3">
+                <div className="flex h-[24px] items-center gap-3">
                   <img
                     src={logos[block.name]}
                     alt={block.name}
-                    className="h-5 w-auto"
+                    className={`${logoHeight[block.name]} w-auto`}
                   />
+                  {/* For T1 general, show label since icon has no text */}
+                  {block.name === "t1" && (
+                    <span className="font-[family-name:var(--font-sora)] text-sm font-semibold text-gray-800">
+                      T1 general
+                    </span>
+                  )}
                   <span className="hidden tablet:inline font-[family-name:var(--font-inter)] text-[13px] text-gray-400">
                     {block.pairs.length} problemas y soluciones
                   </span>
