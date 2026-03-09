@@ -1,10 +1,7 @@
 import { DIFERENCIADORES } from "@/lib/constants";
-import DotPattern from "./ui/DotPattern";
-
 export default function Diferenciadores() {
   return (
     <section className="relative overflow-hidden bg-[#FFFAFA] py-10 px-4 tablet:py-14 tablet:px-6">
-      <DotPattern />
       <div className="relative z-10 mx-auto max-w-[1018px]" data-animate>
         <p className="mb-3 font-[family-name:var(--font-inter)] text-[11px] font-semibold uppercase tracking-[0.15em] text-gray-400">
           {DIFERENCIADORES.eyebrow}
