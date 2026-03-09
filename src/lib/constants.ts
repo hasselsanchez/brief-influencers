@@ -316,7 +316,7 @@ export const HOOKS = {
         "Así es cómo transformé una simple idea en una tienda en línea con pagos y envíos integrados. En la misma tarde.",
         "¿Quieres vender pero no sabes cómo hacer la tienda, cómo cobrar ni cómo enviar? Te lo resuelvo en un solo video.",
         "Antes necesitabas un diseñador para la tienda, un sistema para cobrar y otro para enviar. Ahora solo necesitas T1.",
-        "Si estabas buscando una señal para dar el salto: es este el momento\u2026",
+        "Si estabas buscando una señal para emprender: es este el momento\u2026",
         "Esta plataforma mexicana está cambiando cómo iniciar y hacer crecer un negocio.",
       ],
     },
