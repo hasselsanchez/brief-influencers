@@ -53,6 +53,14 @@ export default function Nav() {
 
   return (
     <>
+      {/* Scroll progress bar — above everything */}
+      <div className="fixed top-0 left-0 right-0 z-[60] h-[3px] bg-transparent">
+        <div
+          className="h-full bg-[#E26153] transition-[width] duration-100 ease-out"
+          style={{ width: `${scrollProgress}%` }}
+        />
+      </div>
+
       <nav
         className={`fixed top-0 left-0 right-0 z-50 flex h-[70px] items-center justify-between transition-all duration-300 ${
           scrolled
@@ -106,13 +114,6 @@ export default function Nav() {
           </div>
         </div>
 
-        {/* Scroll progress bar */}
-        <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-transparent">
-          <div
-            className="h-full bg-[#E26153] transition-[width] duration-100 ease-out"
-            style={{ width: `${scrollProgress}%` }}
-          />
-        </div>
       </nav>
 
       {/* Mobile menu overlay */}
