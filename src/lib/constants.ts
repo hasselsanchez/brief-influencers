@@ -411,7 +411,7 @@ export const RECURSOS = {
   titleAccent: "materiales",
   cards: [
     {
-      icon: "📹",
+      icon: "",
       title: "Videos de referencia",
       desc: "Videos de campaña para que veas el tono y estilo de comunicación de T1.",
       links: [
@@ -431,7 +431,7 @@ export const RECURSOS = {
       ],
     },
     {
-      icon: "🖥️",
+      icon: "",
       title: "Plataforma",
       desc: "Explora T1 directamente. Crea una cuenta gratuita y prueba crear una tienda con IA.",
       links: [{ label: "Visitar t1.com", href: "https://t1.com" }],
