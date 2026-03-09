@@ -4,13 +4,20 @@ import t1iconLogo from "@/assets/logos/t1-icon.svg";
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
   const [menuVisible, setMenuVisible] = useState(false);
   const drawerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 10);
-    window.addEventListener("scroll", handleScroll);
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+      const totalHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+      const progress = totalHeight > 0 ? (window.scrollY / totalHeight) * 100 : 0;
+      setScrollProgress(Math.min(progress, 100));
+    };
+    window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
@@ -97,6 +104,14 @@ export default function Nav() {
               </svg>
             </button>
           </div>
+        </div>
+
+        {/* Scroll progress bar */}
+        <div className="absolute bottom-0 left-0 right-0 h-[3px] bg-transparent">
+          <div
+            className="h-full bg-[#E26153] transition-[width] duration-100 ease-out"
+            style={{ width: `${scrollProgress}%` }}
+          />
         </div>
       </nav>
 
