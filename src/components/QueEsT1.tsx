@@ -43,13 +43,11 @@ export default function QueEsT1() {
       </div>
 
       <div className="relative mx-auto max-w-[1018px]">
-        {/* Subtle pink glow behind cards */}
+        {/* Soft pink glow behind cards */}
         <div
-          className="pointer-events-none absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-0"
+          className="pointer-events-none absolute inset-0 z-0"
           style={{
-            width: "80%",
-            height: "70%",
-            background: "radial-gradient(ellipse at center, rgba(242,181,174,0.15) 0%, rgba(253,232,229,0.08) 40%, transparent 70%)",
+            background: "radial-gradient(ellipse 100% 80% at 50% 45%, #FDE8E5 0%, #FEF1EF 30%, #FFF8F7 55%, transparent 80%)",
           }}
         />
         <div
