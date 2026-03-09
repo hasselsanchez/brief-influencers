@@ -296,29 +296,6 @@ export const PRODUCTOS = {
         },
       ],
     },
-    {
-      name: "t1" as const,
-      subtitle:
-        "El ecosistema del comercio moderno. Una sola plataforma para crear tu tienda, cobrar y enviar.",
-      pairs: [
-        {
-          problem:
-            "Usas una herramienta para la tienda, otra para cobrar y otra para enviar. Tres plataformas, tres cuentas, tres mundos que no se hablan entre sí.",
-          example:
-            "Ej: Un emprendedor tiene Shopify para la tienda, Conekta para cobrar y una cuenta directa con una paquetería. Cuando vende algo tiene que entrar a tres plataformas diferentes para completar una sola venta.",
-          solution:
-            "T1 conecta tienda, pagos y envíos en un solo lugar. Vendes, cobras y envías sin salir de la plataforma.",
-        },
-        {
-          problem:
-            "Quieres empezar a vender en línea pero no sabes por dónde empezar: ¿primero la tienda? ¿la pasarela de pagos? ¿la paquetería?",
-          example:
-            "Ej: Una persona quiere vender sus productos artesanales. Lleva semanas investigando plataformas, comparando precios y no sabe qué necesita primero para arrancar.",
-          solution:
-            "Con T1 empiezas por donde sea: crea tu tienda con IA, activa pagos al instante y conecta envíos. Todo está diseñado para que arranques el mismo día.",
-        },
-      ],
-    },
   ],
 };
 
