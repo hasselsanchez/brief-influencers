@@ -62,12 +62,12 @@ export default function Hooks() {
         </p>
         <h2
           className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-gray-900"
-          style={{ fontSize: "clamp(27.5px, 3.5vw, 39.5px)" }}
+          style={{ fontSize: "clamp(25px, 3.2vw, 37px)" }}
         >
           {HOOKS.title}{" "}
           <span className="text-[#E26153]">{HOOKS.titleAccent}</span>
         </h2>
-        <p className="mx-auto max-w-[540px] font-[family-name:var(--font-inter)] font-light text-[15px] leading-[1.7] text-black">
+        <p className="mx-auto max-w-[540px] font-[family-name:var(--font-inter)] font-light text-sm leading-[1.7] text-black">
           {HOOKS.desc}
         </p>
       </div>

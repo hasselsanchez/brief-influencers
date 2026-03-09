@@ -59,12 +59,12 @@ export default function Objetivo() {
           </p>
           <h2
             className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-white"
-            style={{ fontSize: "clamp(27.5px, 3.5vw, 39.5px)" }}
+            style={{ fontSize: "clamp(25px, 3.2vw, 37px)" }}
           >
             {OBJETIVO.title}{" "}
             <span className="text-[#E26153]">{OBJETIVO.titleAccent}</span>
           </h2>
-          <p className="mx-auto mb-12 max-w-[540px] font-[family-name:var(--font-inter)] font-light text-[15px] leading-[1.7] text-gray-400">
+          <p className="mx-auto mb-12 max-w-[540px] font-[family-name:var(--font-inter)] font-light text-sm leading-[1.7] text-gray-400">
             {OBJETIVO.desc}
           </p>
         </div>

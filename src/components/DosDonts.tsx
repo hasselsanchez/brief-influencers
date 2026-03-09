@@ -12,7 +12,7 @@ export default function DosDonts() {
         </p>
         <h2
           className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-gray-900"
-          style={{ fontSize: "clamp(27.5px, 3.5vw, 39.5px)" }}
+          style={{ fontSize: "clamp(25px, 3.2vw, 37px)" }}
         >
           {DOS_DONTS.title}{" "}
           <span className="text-[#E26153]">{DOS_DONTS.titleAccent}</span>

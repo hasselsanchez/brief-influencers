@@ -31,7 +31,7 @@ export default function Hero() {
         <h1
           className="mb-6 tablet:mb-8 font-[family-name:var(--font-sora)] font-extralight leading-[1.15] text-gray-900 animate-fade-in-up"
           style={{
-            fontSize: "clamp(35.5px, 5.5vw, 57.5px)",
+            fontSize: "clamp(33px, 5vw, 55px)",
             animationDelay: "0.1s",
             animationFillMode: "both",
           }}
@@ -40,7 +40,7 @@ export default function Hero() {
         </h1>
 
         <p
-          className="mx-auto mb-8 tablet:mb-12 max-w-[540px] font-[family-name:var(--font-inter)] font-light text-[15px] leading-[1.7] text-gray-500 animate-fade-in-up"
+          className="mx-auto mb-8 tablet:mb-12 max-w-[540px] font-[family-name:var(--font-inter)] font-light text-sm leading-[1.7] text-gray-500 animate-fade-in-up"
           style={{ animationDelay: "0.2s", animationFillMode: "both" }}
         >
           {HERO.subtitle}
