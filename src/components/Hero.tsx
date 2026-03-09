@@ -31,7 +31,7 @@ export default function Hero() {
         <h1
           className="mb-6 tablet:mb-8 font-[family-name:var(--font-sora)] font-extralight leading-[1.15] text-gray-900 animate-fade-in-up"
           style={{
-            fontSize: "clamp(33px, 5vw, 55px)",
+            fontSize: "clamp(34px, 5.1vw, 56px)",
             animationDelay: "0.1s",
             animationFillMode: "both",
           }}

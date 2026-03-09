@@ -22,7 +22,8 @@ export const HERO = {
 
 export const QUE_ES = {
   eyebrow: "01 — Qué es T1",
-  title: "Todo en Uno. Bienvenido a la nueva era del",
+  titleLine1: "Todo en Uno.",
+  titleLine2: "Bienvenido a la nueva era del",
   titleAccent: "comercio moderno.",
   descParts: [
     { text: "T1 es el ecosistema del comercio moderno 100% mexicano que conecta todo lo que un negocio necesita para operar: tienda en línea, pagos y envíos, " },

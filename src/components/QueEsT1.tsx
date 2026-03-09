@@ -30,7 +30,10 @@ export default function QueEsT1() {
           className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-gray-900"
           style={{ fontSize: "clamp(25px, 3.2vw, 37px)" }}
         >
-          {QUE_ES.title} <span className="text-[#E26153]">{QUE_ES.titleAccent}</span>
+          {QUE_ES.titleLine1}
+          <br />
+          <span className="inline-block">{QUE_ES.titleLine2}{" "}
+          <span className="text-[#E26153]">{QUE_ES.titleAccent}</span></span>
         </h2>
         <p className="mb-6 tablet:mb-8 font-[family-name:var(--font-inter)] font-light text-sm leading-[1.7] text-black">
           {QUE_ES.descParts.map((part, i) =>
