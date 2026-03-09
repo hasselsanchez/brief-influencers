@@ -21,7 +21,7 @@ const icons = [
 export default function Objetivo() {
   return (
     <section
-      className="relative overflow-hidden py-14 px-4 tablet:py-20 tablet:px-6"
+      className="relative overflow-hidden py-8 px-4 tablet:py-12 tablet:px-6"
       id="objetivo"
       style={{
         background: `
@@ -59,7 +59,7 @@ export default function Objetivo() {
           </p>
           <h2
             className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-white"
-            style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
+            style={{ fontSize: "clamp(30px, 3.8vw, 42px)" }}
           >
             {OBJETIVO.title}{" "}
             <span className="text-[#E26153]">{OBJETIVO.titleAccent}</span>

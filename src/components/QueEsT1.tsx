@@ -18,17 +18,17 @@ const logoHeights: Record<string, number> = {
 export default function QueEsT1() {
   return (
     <section
-      className="relative overflow-hidden py-10 px-4 tablet:py-14 tablet:px-6"
+      className="relative overflow-hidden py-8 px-4 tablet:py-12 tablet:px-6"
       id="que-es"
       style={{ background: "linear-gradient(to bottom, #FFF8F7 0%, #FEF1EF 15%, #FEF1EF 50%, #FFF8F7 75%, #FFFFFF 100%)" }}
     >
-      <div className="relative z-10 mx-auto max-w-[1018px]" data-animate>
+      <div className="relative z-10 mx-auto max-w-[1018px] text-center" data-animate>
         <p className="mb-3 font-[family-name:var(--font-inter)] text-[11px] font-semibold uppercase tracking-[0.15em] text-gray-400">
           {QUE_ES.eyebrow}
         </p>
         <h2
           className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-gray-900"
-          style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
+          style={{ fontSize: "clamp(30px, 3.8vw, 42px)" }}
         >
           {QUE_ES.title} <span className="text-[#E26153]">{QUE_ES.titleAccent}</span>
         </h2>

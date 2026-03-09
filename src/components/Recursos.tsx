@@ -2,14 +2,14 @@ import { RECURSOS } from "@/lib/constants";
 
 export default function Recursos() {
   return (
-    <section className="relative overflow-hidden bg-white py-10 px-4 tablet:py-14 tablet:px-6">
-      <div className="relative z-10 mx-auto max-w-[1018px]" data-animate>
+    <section className="relative overflow-hidden bg-white py-8 px-4 tablet:py-12 tablet:px-6">
+      <div className="relative z-10 mx-auto max-w-[1018px] text-center" data-animate>
         <p className="mb-3 font-[family-name:var(--font-inter)] text-[11px] font-semibold uppercase tracking-[0.15em] text-gray-400">
           {RECURSOS.eyebrow}
         </p>
         <h2
           className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-gray-900"
-          style={{ fontSize: "clamp(32px, 4vw, 44px)" }}
+          style={{ fontSize: "clamp(30px, 3.8vw, 42px)" }}
         >
           {RECURSOS.title}{" "}
           <span className="text-[#E26153]">{RECURSOS.titleAccent}</span>
