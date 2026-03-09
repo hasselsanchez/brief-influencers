@@ -28,11 +28,11 @@ export default function QueEsT1() {
         </p>
         <h2
           className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-gray-900"
-          style={{ fontSize: "clamp(30px, 3.8vw, 42px)" }}
+          style={{ fontSize: "clamp(27.5px, 3.5vw, 39.5px)" }}
         >
           {QUE_ES.title} <span className="text-[#E26153]">{QUE_ES.titleAccent}</span>
         </h2>
-        <p className="mb-6 tablet:mb-8 font-[family-name:var(--font-inter)] font-light text-base leading-[1.7] text-black">
+        <p className="mb-6 tablet:mb-8 font-[family-name:var(--font-inter)] font-light text-[15px] leading-[1.7] text-black">
           {QUE_ES.descParts.map((part, i) =>
             part.red ? (
               <span key={i} className="text-[#E26153]">{part.text}</span>
@@ -97,7 +97,7 @@ export default function QueEsT1() {
         >
           <p
             className="font-[family-name:var(--font-sora)] font-light leading-[1.55] tracking-[-0.01em] text-gray-900"
-            style={{ fontSize: "clamp(20px, 2.8vw, 26px)" }}
+            style={{ fontSize: "clamp(17.5px, 2.5vw, 23.5px)" }}
           >
             <span className="font-normal text-[#E26153]">
               {QUE_ES.highlightStatement.before}

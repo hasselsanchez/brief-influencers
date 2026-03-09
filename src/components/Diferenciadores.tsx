@@ -8,7 +8,7 @@ export default function Diferenciadores() {
         </p>
         <h2
           className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-gray-900"
-          style={{ fontSize: "clamp(30px, 3.8vw, 42px)" }}
+          style={{ fontSize: "clamp(27.5px, 3.5vw, 39.5px)" }}
         >
           {DIFERENCIADORES.title}{" "}
           <span className="text-[#E26153]">{DIFERENCIADORES.titleAccent1}</span>{" "}
@@ -16,7 +16,7 @@ export default function Diferenciadores() {
           <span className="text-[#E26153]">{DIFERENCIADORES.titleAccent2}</span>{" "}
           {DIFERENCIADORES.titleEnd}
         </h2>
-        <p className="mb-8 font-[family-name:var(--font-inter)] font-light text-base leading-[1.7] text-black">
+        <p className="mb-8 font-[family-name:var(--font-inter)] font-light text-[15px] leading-[1.7] text-black">
           {DIFERENCIADORES.desc}
         </p>
       </div>

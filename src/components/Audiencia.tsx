@@ -55,13 +55,13 @@ export default function Audiencia() {
         </p>
         <h2
           className="mb-4 font-[family-name:var(--font-sora)] font-extralight leading-[1.2] text-gray-900"
-          style={{ fontSize: "clamp(30px, 3.8vw, 42px)" }}
+          style={{ fontSize: "clamp(27.5px, 3.5vw, 39.5px)" }}
         >
           {AUDIENCIA.title}{" "}
           <span className="text-[#E26153]">{AUDIENCIA.titleAccent}</span>
           {AUDIENCIA.titleEnd}
         </h2>
-        <p className="mx-auto max-w-[540px] font-[family-name:var(--font-inter)] font-light text-base leading-[1.7] text-black">
+        <p className="mx-auto max-w-[540px] font-[family-name:var(--font-inter)] font-light text-[15px] leading-[1.7] text-black">
           {AUDIENCIA.desc}
         </p>
       </div>
