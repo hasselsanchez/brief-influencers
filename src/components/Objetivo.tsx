@@ -1,5 +1,23 @@
 import { OBJETIVO } from "@/lib/constants";
 
+const icons = [
+  // Rayo — Descubrimiento
+  <svg key="bolt" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+  </svg>,
+  // Globo — Relevancia
+  <svg key="globe" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="12" cy="12" r="10" />
+    <path d="M2 12h20" />
+    <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+  </svg>,
+  // Laptop — Consideración
+  <svg key="laptop" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+    <rect x="3" y="4" width="18" height="12" rx="2" />
+    <path d="M2 20h20" />
+  </svg>,
+];
+
 export default function Objetivo() {
   return (
     <section
@@ -34,8 +52,8 @@ export default function Objetivo() {
       />
 
       <div className="relative z-10 mx-auto max-w-[1018px]">
-        {/* Header */}
-        <div data-animate>
+        {/* Header — centrado */}
+        <div className="text-center" data-animate>
           <p className="mb-3 font-[family-name:var(--font-inter)] text-[11px] font-semibold uppercase tracking-[0.15em] text-gray-500">
             {OBJETIVO.eyebrow}
           </p>
@@ -46,43 +64,34 @@ export default function Objetivo() {
             {OBJETIVO.title}{" "}
             <span className="text-[#E26153]">{OBJETIVO.titleAccent}</span>
           </h2>
-          <p className="mb-8 max-w-[640px] font-[family-name:var(--font-inter)] font-light text-base leading-[1.7] text-gray-400">
+          <p className="mx-auto mb-12 max-w-[540px] font-[family-name:var(--font-inter)] font-light text-base leading-[1.7] text-gray-400">
             {OBJETIVO.desc}
           </p>
         </div>
 
-        {/* Objective cards */}
-        <div
-          className="grid gap-4 tablet:grid-cols-3"
-          data-animate
-        >
-          {OBJETIVO.cards.map((card) => (
-            <div
-              key={card.title}
-              className="group rounded-[24px] border border-white/[0.08] bg-white/[0.04] p-6 tablet:p-8 backdrop-blur-sm transition-all duration-500 hover:border-white/[0.16] hover:bg-white/[0.08]"
-            >
-              <h3 className="mb-3 font-[family-name:var(--font-sora)] text-lg font-semibold text-white">
+        {/* 3 columnas con ícono + texto centrado */}
+        <div className="grid gap-10 tablet:grid-cols-3 tablet:gap-8" data-animate>
+          {OBJETIVO.cards.map((card, i) => (
+            <div key={card.title} className="flex flex-col items-center text-center">
+              <div className="mb-5 flex h-[56px] w-[56px] items-center justify-center rounded-[16px] bg-[#E26153]/10 text-[#E26153]">
+                {icons[i]}
+              </div>
+              <h3 className="mb-2 font-[family-name:var(--font-sora)] text-lg font-semibold text-white">
                 {card.title}
               </h3>
-              <p className="font-[family-name:var(--font-inter)] text-sm leading-[1.7] text-gray-400">
+              <p className="max-w-[280px] font-[family-name:var(--font-inter)] text-sm leading-[1.7] text-gray-400">
                 {card.desc}
               </p>
             </div>
           ))}
         </div>
 
-        {/* Guide phrase */}
-        <div
-          className="mx-auto mt-10 max-w-[640px] rounded-[24px] border border-[#E26153]/20 bg-[#E26153]/[0.06] px-5 py-6 text-center tablet:px-10 tablet:py-8"
-          data-animate
-        >
-          <p className="mb-3 font-[family-name:var(--font-sora)] text-xs font-semibold uppercase tracking-[0.1em] text-[#E26153]">
+        {/* Guide phrase — subtexto centrado sin card */}
+        <div className="mx-auto mt-12 max-w-[540px] text-center" data-animate>
+          <p className="mb-2 font-[family-name:var(--font-inter)] text-[11px] font-semibold uppercase tracking-[0.12em] text-[#E26153]/70">
             {OBJETIVO.guidePhrase.label}
           </p>
-          <p
-            className="font-[family-name:var(--font-sora)] font-light italic leading-[1.65] text-gray-300"
-            style={{ fontSize: "clamp(16px, 2vw, 19px)" }}
-          >
+          <p className="font-[family-name:var(--font-inter)] text-sm font-light italic leading-[1.7] text-gray-500">
             {OBJETIVO.guidePhrase.text}
           </p>
         </div>
