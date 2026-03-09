@@ -20,7 +20,7 @@ export default function QueEsT1() {
     <section
       className="relative overflow-hidden py-10 px-4 tablet:py-14 tablet:px-6"
       id="que-es"
-      style={{ background: "linear-gradient(to bottom, #FFFCFC, #FFFFFF 25%)" }}
+      style={{ background: "linear-gradient(to bottom, #FFFCFC, #FEF1EF 20%, #FDE8E5 40%, #FDE8E5 60%, #FEF1EF 80%, #FFFFFF 100%)" }}
     >
       <div className="relative z-10 mx-auto max-w-[1018px]" data-animate>
         <p className="mb-3 font-[family-name:var(--font-inter)] text-[11px] font-semibold uppercase tracking-[0.15em] text-gray-400">
